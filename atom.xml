@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://www.sailstars.one</id>
     <title>SailStars</title>
-    <updated>2021-02-01T12:43:30.419Z</updated>
+    <updated>2021-02-01T12:44:52.917Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://www.sailstars.one"/>
     <link rel="self" href="https://www.sailstars.one/atom.xml"/>
@@ -16,9 +16,14 @@
         <link href="https://www.sailstars.one/post/cRNCdW-L1/">
         </link>
         <updated>2021-02-01T12:42:46.000Z</updated>
+        <summary type="html"><![CDATA[<p>已转移至更为稳定的GitHub.<br>
+心境依旧，心意不变.<br>
+<img src="https://s3.ax1x.com/2021/01/31/yVQ49P.jpg" style="width:100%; max-width: 500px" /></p>
+]]></summary>
         <content type="html"><![CDATA[<p>已转移至更为稳定的GitHub.<br>
 心境依旧，心意不变.<br>
 <img src="https://s3.ax1x.com/2021/01/31/yVQ49P.jpg" style="width:100%; max-width: 500px" /></p>
-<!-- more -->]]></content>
+<!-- more -->
+]]></content>
     </entry>
 </feed>
