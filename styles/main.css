@@ -349,7 +349,7 @@ td {
   min-height: 100vh;
   flex-direction: column;
   padding: 0 24px;
-  margin: 20px 20px 20px 20px;
+  margin: 40px 40px 40px 40px;
 }
 .site-header {
   padding: 48px 0;
@@ -428,6 +428,7 @@ td {
 }
 .post-container .post .post-info .post-tag {
   padding: 8px 8px;
+  color: #AAAAAA;
 }
 .post-container .post .post-feature-image {
   display: block;
@@ -542,6 +543,7 @@ td {
 }
 .post-detail .post .post-info .post-tag {
   padding: 8px 8px;
+  color: #AAAAAA;
 }
 .post-detail .post .post-content-wrapper {
   display: flex;
