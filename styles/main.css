@@ -454,6 +454,11 @@ td {
 .post-container .post .post-abstract strong {
   font-weight: bolder;
 }
+.post-container .post .post-abstract img {
+  box-shadow: 0 0 15px #ccc;
+  width: 100%;
+  max-width: 720;
+}
 .post-container .post .post-abstract a {
   color: #006CFF;
   transition: all 0.3s;
@@ -565,7 +570,7 @@ td {
 }
 .post-detail .post .post-content img {
   display: block;
-  box-shadow: 0 0 30px #eee;
+  box-shadow: 0 0 15px #ccc;
   max-width: 100%;
   border-radius: 2px;
   margin: 24px auto;
