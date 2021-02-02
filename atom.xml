@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://www.sailstars.one</id>
     <title>SailStars</title>
-    <updated>2021-02-02T04:58:56.881Z</updated>
+    <updated>2021-02-02T05:09:55.004Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://www.sailstars.one"/>
     <link rel="self" href="https://www.sailstars.one/atom.xml"/>
@@ -11,21 +11,21 @@
     <icon>https://www.sailstars.one/favicon.ico</icon>
     <rights>All rights reserved 2021, SailStars</rights>
     <entry>
-        <title type="html"><![CDATA[听人说爱情是什么]]></title>
+        <title type="html"><![CDATA[听说 爱情是什么]]></title>
         <id>https://www.sailstars.one/post/SdBasjsyr/</id>
         <link href="https://www.sailstars.one/post/SdBasjsyr/">
         </link>
         <updated>2021-02-01T14:32:42.000Z</updated>
-        <summary type="html"><![CDATA[<p>&quot;就是允许你用刀子搅动我的心&quot;<br>
-<br/><br>
-<img src="https://s3.ax1x.com/2021/02/01/yeHsfK.jpg" style="width:100%; max-width:720"  /><br>
+        <summary type="html"><![CDATA[<p>      &quot;就是允许你用刀子搅动我的心&quot;<br>
 <br/></p>
+<center><img src="https://s3.ax1x.com/2021/02/01/yeHsfK.jpg" style="width:100%; max-width:720"  />
+<br/></center>
 <p style="text-align:right; color:#AAAAAA; font-style:italic">by Stars</p>
 ]]></summary>
-        <content type="html"><![CDATA[<p>&quot;就是允许你用刀子搅动我的心&quot;<br>
-<br/><br>
-<img src="https://s3.ax1x.com/2021/02/01/yeHsfK.jpg" style="width:100%; max-width:720"  /><br>
+        <content type="html"><![CDATA[<p>      &quot;就是允许你用刀子搅动我的心&quot;<br>
 <br/></p>
+<center><img src="https://s3.ax1x.com/2021/02/01/yeHsfK.jpg" style="width:100%; max-width:720"  />
+<br/></center>
 <p style="text-align:right; color:#AAAAAA; font-style:italic">by Stars</p>
 <!-- more -->
 ]]></content>
@@ -36,13 +36,13 @@
         <link href="https://www.sailstars.one/post/cRNCdW-L1/">
         </link>
         <updated>2021-02-01T12:42:46.000Z</updated>
-        <summary type="html"><![CDATA[<p>已转移至更为稳定的GitHub.<br>
-心境依旧，心意不变.<br>
-<img src="https://s3.ax1x.com/2021/01/31/yVQ49P.jpg" style="width:100%; max-width: 500px" /></p>
+        <summary type="html"><![CDATA[<center>已转移至更为稳定的GitHub.<br/>心境依旧，心意不变.<br/>
+<img src="https://s3.ax1x.com/2021/01/31/yVQ49P.jpg" style="width:100%; max-width: 500px" />
+</center>
 ]]></summary>
-        <content type="html"><![CDATA[<p>已转移至更为稳定的GitHub.<br>
-心境依旧，心意不变.<br>
-<img src="https://s3.ax1x.com/2021/01/31/yVQ49P.jpg" style="width:100%; max-width: 500px" /></p>
+        <content type="html"><![CDATA[<center>已转移至更为稳定的GitHub.<br/>心境依旧，心意不变.<br/>
+<img src="https://s3.ax1x.com/2021/01/31/yVQ49P.jpg" style="width:100%; max-width: 500px" />
+</center>
 <!-- more -->
 ]]></content>
     </entry>
