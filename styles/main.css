@@ -623,8 +623,9 @@ td {
 .post-detail .post .post-content table {
   border-collapse: collapse;
   margin: 1rem 0;
-  display: block;
+  display: table;
   overflow-x: auto;
+  overflow-y: auto;
 }
 .post-detail .post .post-content tr {
   border-top: 1px solid #dfe2e5;
