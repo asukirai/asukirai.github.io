@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://www.sailstars.one</id>
     <title>SailStars</title>
-    <updated>2021-02-05T03:24:16.079Z</updated>
+    <updated>2021-02-06T02:08:59.255Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://www.sailstars.one"/>
     <link rel="self" href="https://www.sailstars.one/atom.xml"/>
@@ -10,6 +10,44 @@
     <logo>https://www.sailstars.one/images/avatar.png</logo>
     <icon>https://www.sailstars.one/favicon.ico</icon>
     <rights>All rights reserved 2021, SailStars</rights>
+    <entry>
+        <title type="html"><![CDATA[iPad Pro边充电边使用耳机解决方案]]></title>
+        <id>https://www.sailstars.one/post/QZEN7gMjB/</id>
+        <link href="https://www.sailstars.one/post/QZEN7gMjB/">
+        </link>
+        <updated>2021-02-06T01:11:05.000Z</updated>
+        <summary type="html"><![CDATA[<p>iPad Pro从第三代取消了耳机插孔，而玩游戏时需要充电+耳机。市面上的二合一转接头种类繁多，我这里推荐一种解决方案。</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>iPad Pro从第三代取消了耳机插孔，而玩游戏时需要充电+耳机。市面上的二合一转接头种类繁多，我这里推荐一种解决方案。</p>
+<!-- more -->
+<p>目标很简单：</p>
+<ol>
+<li>耳机、麦克风音量音质正常；</li>
+<li>能够开启快速充电。</li>
+</ol>
+<p>但就是这样简单的目标，绝大多数转接头都做不到。</p>
+<p style="color:#BBB">曾经在广告上看到 Satechi 出品的转接头，说是为 iPad Pro 设计，在淘宝找代购花了￥298 入手一个结果发现不兼容，30W(15V2A)的快充倒是能正常使用，但是耳机音质特别渣，同时麦克风几乎没有声音。在MacBook上倒是正常使用，一定是没有驱动。（Satechi官网目前已经悄悄下架了这款，他们也知道是有问题的）</p>
+<img src="https://s3.ax1x.com/2021/02/06/yJ4COx.jpg" style="max-width:40%" />
+<br/><br/>
+最近终于找到了一款贴牌的转接头，除了略有电流声之外，完美使用耳机、耳麦、27W(9V3A)快充。（为什么是贴牌？因为搜到好几个牌子跟这个一模一样，就是包装盒印的牌子不一样😅）
+<img src="https://s3.ax1x.com/2021/02/06/yJ4Rj1.jpg" style="max-width:60%" />
+购买链接：<a href="https://item.jd.com/10020928677626.html" target="blank" style="color:#00AAFF">派威 iPad Pro 转接头</a>&nbsp;<a href="https://item.jd.com/10021792873635.html" target="blank" style="color:#00AAFF">甜橙 iPad Pro 转接头</a><br/><br/>
+如图所示，这个转接头上有两个Type-C插孔、一个3.5mm插孔。一个Type-C用来快充，一个 Type-C可以用来接苹果官方的转接头。<br/><br/>
+如果 3.5mm 耳机插上以后声音不对，那你应该搜索一下你的耳机是美标还是国标，然后购买转换线。
+<img src="https://s3.ax1x.com/2021/02/06/yJ4H9H.jpg" style="max-width:700px" />
+<img src="https://s3.ax1x.com/2021/02/06/yJ5ED0.jpg" style="max-width:700px" />
+购买链接：
+<a href="https://item.m.jd.com/product/2962752.html" target="blank" style="color:#00AAFF">绿联 国标美标耳机转换线</a>
+<br/><br/>
+转接头的直角插头设计的有点蠢，看起来把转接头贴在设备背面很方便，但是这个插头比正常线大一圈，非常硌手。再购买一根 Type-C 延长线，不需要太长，就可以立刻解决问题。
+<img src="https://s3.ax1x.com/2021/02/06/yJ5LiF.jpg" style="max-width:700px" />
+购买链接：
+<a href="https://item.jd.com/10026007747774.html" target="blank" style="color:#00AAFF">绿联Type-C延长线</a>
+<br/><br/>
+最终组合：
+<img src="https://s3.ax1x.com/2021/02/06/yJI4YD.jpg" style="max-width:60%" />
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[听说 爱情是什么]]></title>
         <id>https://www.sailstars.one/post/SdBasjsyr/</id>
