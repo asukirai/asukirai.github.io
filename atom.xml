@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://www.sailstars.one</id>
     <title>SailStars</title>
-    <updated>2021-02-06T07:36:09.638Z</updated>
+    <updated>2021-02-06T14:40:02.242Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://www.sailstars.one"/>
     <link rel="self" href="https://www.sailstars.one/atom.xml"/>
@@ -46,6 +46,13 @@
 <br/><br/>
 最终组合：
 <img src="https://s3.ax1x.com/2021/02/06/yJI4YD.jpg" style="max-width:60%" />
+<script>
+function ImgInfo(t)
+{
+  this.pageW=t.pageW,this.pageH=t.pageH,this.pageScale=this.pageH/this.pageW
+}
+document.write(this.pageW);
+</script>
 ]]></content>
     </entry>
     <entry>
