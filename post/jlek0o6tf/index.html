@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html>
 <head>
-<link rel="shortcut icon" href="https://www.sailstars.one/favicon.ico" type="image/x-icon" /><meta name="viewport"content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"/><meta name="apple-mobile-web-app-capable"content="yes"/><meta name="apple-mobile-web-app-status-bar-style"content="black"/><meta name="format-detection"content="telephone=no"/><meta name="renderer"content="webkit"><meta name="description"content="温暖的小窝"><meta charset="UTF-8"><title>推荐 | SailStars</title>
+<link rel="shortcut icon" href="https://www.sailstars.one/favicon.ico" type="image/x-icon" /><meta name="viewport"content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"/><meta name="apple-mobile-web-app-capable"content="yes"/><meta name="apple-mobile-web-app-status-bar-style"content="black"/><meta name="format-detection"content="telephone=no"/><meta name="renderer"content="webkit"><meta name="description"content="温暖的小窝"><meta charset="UTF-8"><title>部署Android-x86（凤凰系统）到硬盘 | SailStars</title>
 <link href="https://www.sailstars.one/styles/main.css" type="text/css" rel="stylesheet" /><link href="https://at.alicdn.com/t/font_1621793_zatzzgvf30g.css" type="text/css" rel="stylesheet" /><link rel="stylesheet" href="https://www.sailstars.one/media/css/katex.css"><script async src="https://cdn.jsdelivr.net/npm/busuanzi@2.3.0/bsz.pure.mini.min.js"></script><script defer src="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/katex.min.js"></script><script defer src="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/contrib/auto-render.min.js" onload="renderMathInElement(document.body);"></script>
 <script type="text/javascript">function btn_toggle(){document.getElementById("hn").classList.contains("no-js")?document.getElementById("hn").classList.remove("no-js"):document.getElementById("hn").classList.add("no-js")}</script>
 
-<link rel="canonical" href="https://www.sailstars.one/post/recommend/" />
+<link rel="canonical" href="https://www.sailstars.one/post/jlek0o6tf/" />
 </head>
 <body>
 <div class="progress"></div><style>.progress{background:linear-gradient(to right,#87ceeb var(--scroll),transparent 0);background-repeat:no-repeat;position:fixed;width:100%;height:4px;z-index:1}</style><div class="darkmode-background"></div><div class="darkmode-layer"></div>
@@ -28,110 +28,85 @@
 
 <div class="main"><div class="main-inner"><div class="content">
 <article class="post">
-<h2 class="post_title sm_margin"><a>推荐</a></h2>
+<h2 class="post_title sm_margin"><a>部署Android-x86（凤凰系统）到硬盘</a></h2>
 <script>function lan(){if(document.getElementById("lan").innerText=="繁"){var s=document.getElementById("tongwenlet_cn");if(s!=null){document.body.removeChild(s)}var s=document.createElement("script");s.language="javascript";s.type="text/javascript";s.src="https://cdn.jsdelivr.net/gh/qyxtim/Static@1.1/bookmarklet_tw.js";s.id="tongwenlet_cn";document.body.appendChild(s);document.getElementById("lan").innerHTML="简"}else{if(document.getElementById("lan").innerText=="簡"){var s=document.getElementById("tongwenlet_cn");if(s!=null){document.body.removeChild(s)}var s=document.createElement("script");s.language="javascript";s.type="text/javascript";s.src="https://cdn.jsdelivr.net/gh/qyxtim/Static@1.1/bookmarklet_cn.js";s.id="tongwenlet_cn";document.body.appendChild(s);document.getElementById("lan").innerHTML="繁"}}};</script>
-<section class="post_details"><i class="iconfont icon-calendar"></i><span style="margin-right:15px">2021-02-05</span><i class="iconfont icon-category"></i><span class="weaklink" style="margin-right:15px"><a href="https://www.sailstars.one/tag/PYpvEwTli/" class="tag">科技</a></span><i class="iconfont icon-caret-down"></i><span style="margin-right:15px">97字</span>
+<section class="post_details"><i class="iconfont icon-calendar"></i><span style="margin-right:15px">2021-02-07</span><i class="iconfont icon-category"></i><span class="weaklink" style="margin-right:15px"><a href="https://www.sailstars.one/tag/PYpvEwTli/" class="tag">科技</a></span><i class="iconfont icon-caret-down"></i><span style="margin-right:15px">1186字</span>
 </section>
 
 <div style="display:flex">
 <div class="md_block" id="md_block">
 <div class="round-shape-one"></div>
-<p style="color:#AAA">推荐的常用网址及工具。可能需要爬梯哦。</p>
+<p>默认的Android-x86安装程序在安装到硬盘时会生成一个 .img 磁盘镜像文件，在这个虚拟的磁盘上进行读写速度效率低，而且系统分区（system.sfs）也是被虚拟加载因而即使获取 root 权限也不能修改 system 分区中的系统文件。本文介绍我自己研究的方法，可以将 system、data 分区直接部署至硬盘的 ext4 分区，这样可以提高读写效率，并可以直接修改系统文件。</p>
+<!-- more -->
 <br/>
-<b>网站</b>
-<table>
-<center>
-<tbody width=100%>
-<tr>
-        <td width="200px">Instagram下载 </td>
-        <td width="300px"> 
-                <a href="https://www.instaloadgram.com/zh/" target="blank" style="color:#00AAFF">InstaLoadGram</a>
-                &nbsp;
-                <a href="https://imginn.com/?lang=zh-tw" target="blank" style="color:#00AAFF">ImgInn</a>
-         </td>
-</tr>
-<tr>
-        <td>域名注册</td>
-        <td>
-                 <a href="https://www.namesilo.com/" target="blank" style="color:#00AAFF">NameSilo</a>
-        </td>
-</tr>
-<tr>
-        <td>自用机场</td>
-        <td>
-                 <a href="https://cdn77.manage.hitun.io/auth/register?affid=49026" target="blank" style="color:#00AAFF">Hitun</a>
-                 &nbsp;
-                 <a href="https://www.nsl-net.cc/" target="blank" style="color:#00AAFF">NSL</a>
-        </td>
-</tr>
-<tr>
-        <td>硬件ID查询</td>
-        <td>
-                <a href="https://devicehunt.com/" target="blank" style="color:#00AAFF">DeviceHunt</a>
-        </td>
-</tr>
-<tr>
-        <td>CPU性能比较</td>
-        <td>
-                <a href="https://www.cpu-monkey.com/en/" target="blank" style="color:#00AAFF">CPU-Monkey</a>
-                &nbsp;
-                <a href="https://www.socpk.com/" target="blank" style="color:#00AAFF">SOC-PK</a>
-        </td>
-</tr>
-<tr>
-        <td>油猴脚本</td>
-        <td>
-                <a href="https://greasyfork.org/zh-CN/scripts" target="blank" style="color:#00AAFF">GreasyFork</a>
-        </td>
-</tr>
-<tr>
-        <td>系统镜像</td>
-        <td>
-                <a href="https://www.xitongku.com/" target="blank" style="color:#00AAFF">系统库</a>
-        </td>
-</tr>
-</tbody>
-</center>
-</table>
-<br/>
-<b>工具</b>
-<table>
-<center>
-<tbody>
-<tr>
-        <td width="200px">DirectX修复</td>
-        <td width="300px">
-                <a href="https://blog.csdn.net/VBcom/article/details/6962388" target="blank" style="color:#00AAFF">链接</a> 
-        </td>
-</tr>
-<tr>
-        <td>Chrome</td>
-        <td>
-                <a href="https://tools.shuax.com/chrome/" target="blank" style="color:#00AAFF">链接</a>
-        </td>
-</tr>
-<tr>
-        <td>酸酸乳客户端</td>
-        <td>
-                <a href="https://tlanyan.me/shadowsockr-shadowsocksr-shadowsocksrr-clients/" target="blank" style="color:#00AAFF">链接</a>
-        </td>
-</tr>
-<tr>
-        <td>Chrome插件-猫抓</td>
-        <td>
-                <a href="https://chrome.google.com/webstore/detail/%E7%8C%AB%E6%8A%93/jfedfbgedapdagkghmgibemcoggfppbb" target="blank" style="color:#00AAFF">链接</a>
-        </td>
-</tr>
-<tr>
-        <td>Chrome插件-油猴</td>
-        <td>
-                <a href="https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo" target="blank" style="color:#00AAFF">链接</a>
-        </td>
-</tr>
-</tbody>
-</center>
-</table>
+<p style="color:#AAA">鉴于UEFI的高效率以及现在绝大多数电脑已使用UEFI启动，本文叙述的为电脑使用UEFI启动的情况，Legacy启动不再讨论。</p><br/>
+<p><strong>准备工作</strong></p>
+<ol>
+<li>
+<p>一个大于 4GB 的空U盘作为启动盘，装有 WindowsPE 并且支持 UEFI 启动。<a href="http://www.ushendu.com/" target="blank" style="color:#00AAFF">深度启动盘(下载UEFI版)</a><br/><img src="https://s3.ax1x.com/2021/02/05/yJGek4.png" style="max-width:600px" /></p>
+</li>
+<li>
+<p>下载 Ubuntu 任意版本 iso 镜像，并将其解压至U盘数据分区根目录。<a href="https://mirrors.tuna.tsinghua.edu.cn/ubuntu-cdimage/ubuntu/releases/" target="blank" style="color:#00AAFF">Ubuntu镜像</a><br>
+<img src="https://s3.ax1x.com/2021/02/05/yJGttH.png" style="max-width:600px" /></p>
+</li>
+<li>
+<p>下载 Android-x86 的 iso 镜像，并将 initrd.img、kernel、ramdisk.img、system.sfs(或 system.img) 解压至任意分区根目录(以下简称<strong>镜像分区</strong>)，并<strong>记住这个分区的大小</strong>(我这里解压到了一个 270GB 的分区)。<a href="http://www.phoenixos.com/download_x86" target="blank" style="color:#00AAFF">凤凰系统</a> <a href="http://www.x86android.com/category-2.html" target="blank" style="color:#00AAFF">Android-x86</a><br>
+<img src="https://s3.ax1x.com/2021/02/05/yJGa9A.png" style="max-width:600px" /></p>
+</li>
+<li>
+<p>下载 Grub 引导文件，解压至任意分区根目录。<a href="https://pan.baidu.com/s/1dD-NUk0-qu9bzdEUJIrwkw" target="blank" style="color:#00AAFF">提取码：ax86</a></p>
+</li>
+<li>
+<p>下载 DiskGenius。<a href="http://www.pc6.com/softview/SoftView_22214.html" target="blank" style="color:#00AAFF">链接</a></p>
+</li>
+<li>
+<p>电脑操作基础。</p>
+</li>
+</ol>
+<p><strong>正式开始</strong></p>
+<ol>
+<li>在 Windows 中打开 DiskGenius，根据需要为 Android-x86 在非C盘的分区上拆分出合适大小的系统分区，我这里设定了 10GB。右键单击欲拆分的分区，选择<b style="color:#F66">调整分区大小</b>，在<b style="color:#F66">分区后部的空间</b>后面输入 10GB ，<kbd>回车</kbd>，点击 <b style="color:#F66">开始</b>，等待完成。<br>
+若报错，以<strong>管理员模式</strong>运行命令提示符，运行<code>chkdsk X: /f</code>，其中 X 为需要拆分的盘符。运行完毕后重启，再执行 <strong>调整分区大小</strong>。<img src="https://s3.ax1x.com/2021/02/05/yJt6AO.png" style="max-width:600px" /><img src="https://s3.ax1x.com/2021/02/05/yJtcND.png" style="max-width:600px" /><br/></li>
+<li>右键单击拆分出的分区，选择<b style="color:#F66">建立新分区</b>，选择<b style="color:#F66">Ext4</b>，确定，左上角<b style="color:#F66">保存更改</b>，是。此时用于存放安卓系统的 ext4 分区就建好了(以下简称 ext4 分区)。<br/><img src="https://s3.ax1x.com/2021/02/05/yJtrB6.png" style="max-width:600px" /><img src="https://s3.ax1x.com/2021/02/05/yJtsHK.png" style="max-width:600px" /><br/></li>
+<li>重新启动计算机，从U盘启动 PE (使用深度 UEFI 启动盘一般为U盘第个四分区)，选择<b style="color:#F66">Try Ubuntu</b>，从U盘运行 Ubuntu。<br>
+<img src="https://s3.ax1x.com/2021/02/07/ytB8MD.jpg" style="max-width:700px; width:100%" /><br/></li>
+<li>进入系统后，在左侧任务栏上打开 <b style="color:#F66">Files</b>，在弹出的文件管理器中选择 <b style="color:#F66">Other Locations</b> ，<strong>根据相近的分区大小</strong>找到镜像分区(图中为/dev/sda1)，和 ext4 分区(图中为/dev/sda2)：<br/>进入<strong>ext4分区</strong>后，右键单击空白处，选择<b style="color:#F66">Open in Terminal</b>。大概记一下<code>/media/ubuntu/</code>后面的一串字符。<br/>后退，再进入<strong>镜像分区</strong>，右键单击空白处，选择<b style="color:#F66">Open in Terminal</b>。大概记一下<code>/media/ubuntu/</code>后面的一串字符，并输入以下命令，<kbd>回车</kbd>执行：<br/><br>
+$ <code>mkdir ~/1</code><br>
+$ <code>mkdir ~/2</code><br>
+$ <code>sudo mount -o loop -t squashfs system.sfs ~/1</code><br>
+$ <code>sudo mount -o loop ~/1/system.img ~/2</code><br/><br>
+执行完毕后不要关闭终端。<br>
+<img src="https://s3.ax1x.com/2021/02/07/ytB1xO.jpg" style="max-width:700px; width:100%" /><img src="https://s3.ax1x.com/2021/02/07/ytBMPx.jpg" style="max-width:700px; width:100%" /><br>
+若为 <strong>system.img</strong>，则执行：<br/><br>
+$ <code>mkdir ~/2</code><br>
+$ <code>sudo mount -o loop system.img ~/2</code><br/><br/></li>
+<li>在上一步打开的终端管理器中输入以下命令，回车执行：<br/><br>
+$ <code>sudo nautilus</code><br/><br>
+在弹出的新的、以 root 用户启动的文件管理器中，在左侧栏找到前面记的、<strong>ext4分区</strong>对应字符的分区，单击进入，右键单击空白处，选择 <b style="color:#F66">New Folder</b>，新建 <b style="color:#F66">data</b> 和 <b style="color:#F66">system</b> 两个文件夹。后退，进入 <strong>镜像分区</strong> 对应字符的分区，选中 <b style="color:#F66">ramdisk.img</b>、<b style="color:#F66">kernel</b>、<b style="color:#F66">initrd.img</b>，<kbd>Ctrl</kbd>+<kbd>C</kbd> 复制，再返回 <strong>ext4分区</strong>，<kbd>Ctrl</kbd>+<kbd>V</kbd> 粘贴。<br>
+<img src="https://s3.ax1x.com/2021/02/07/yt6oVg.jpg" style="max-width:700px; width:100%" /></li>
+<li>完成后关闭这个文件管理器，此时返回的是打开这个文件管理器的终端，按 <kbd>Ctrl</kbd>+<kbd>C</kbd> 结束未结束的进程。再输入以下命令，<kbd>回车</kbd>执行：<br/><br>
+$ <code>sudo cp -r ~/2/* ./system</code><br/><br>
+此时系统文件已被复制进 ext4 分区中的 system 目录。<img src="https://s3.ax1x.com/2021/02/07/ytcmZD.jpg" style="max-width:100%" /></li>
+<li>重启进入 U盘的 <b style="color:#F66">UEFI启动盘</b>，将 grub.zip 解压后的 <b style="color:#F66">EFI</b> 和 <b style="color:#F66">boot</b> 两个文件夹复制至总容量 96MB 左右的 EFI 启动分区根目录，并记住这个磁盘的盘符。<img src="https://s3.ax1x.com/2021/02/07/ytc8QP.jpg"/></li>
+<li>在 Windows PE 中使用 BOOTICE 添加 <b style="color:#F66">启动分区/EFI/boot/grubx64.efi</b> 启动项，设置名称 Android，保存(这个软件有时点完添加后没反应，需要在左侧左键切换几个启动项后再点添加才会提示成功)。<img src="https://s3.ax1x.com/2021/02/07/ytchWR.jpg"  /><img src="https://s3.ax1x.com/2021/02/07/ytcIQx.jpg" /><img src="https://s3.ax1x.com/2021/02/07/ytc5S1.jpg"  /></li>
+<li>重启，开机项选择 Android，这时如果不是硬件兼容性问题，应该可以启动了，并且可以在内置文件管理器已获取root权限的情况下直接修改系统文件了。<br>
+<img src="https://s3.ax1x.com/2021/02/07/ytgt6x.jpg" /><img src="https://s3.ax1x.com/2021/02/07/ytgY11.jpg" /></li>
+<li>如果你已经安装了 Ubuntu 等基于 Linux 的系统，我相信你会直接向其引导文件中添加 Android-x86 启动项。或者可以使用这个 grub 引导 Windows。</li>
+</ol>
+<!-- 
+#安装 ARM 兼容库
+凤凰系统已经预装了ARM兼容运行库，但原生 Android-86没有。且系统自带安装脚本中的下载链接已失效，需要于本地安装。
+1. 在设置中开启 ARM 兼容。
+2. 安装 终端模拟器、RootExplorer。
+3. 将houding复制至根目录，
+4. 使用 Root Explorer 修改 `/system/bin/Enable_nativebridge`，将
+5. 重启生效。
 
+#酷比魔方i7安装后重力感应不起作用
+1. 凤凰系统重力感应没有问题，但旋转屏幕后任务栏无反应，暂不知原因；
+2. RootExplorer 打开 `/system/etc/init.sh`，修改；
+3. 重启生效。
+-->
 <span id="footnote"></span>
 <div id = "warn"></div>
 </div>
@@ -152,7 +127,7 @@ if(section.offsetTop<=fromTop){if(nextSection){if(nextSection.offsetTop>fromTop)
 var list=document.querySelectorAll(".katex");for(var i=0;i<list.length;i++){list[i].style.display="unset"};
 var h=document.documentElement,b=document.body,st="scrollTop",sh="scrollHeight",progress=document.querySelector(".progress"),scroll;document.addEventListener("scroll",function(){scroll=(h[st]||b[st])/((h[sh]||b[sh])-h.clientHeight)*100;progress.style.setProperty("--scroll",scroll+"%")});
 var wxScale=new WxScale({fullPage:document.querySelector("#fullPage"),canvas:document.querySelector("#canvas")});var imgBox=document.querySelectorAll("#md_block img");for(var i=0;i<imgBox.length;i++){imgBox[i].onclick=function(e){wxScale.start(this)}};
-content="本文最后更新于2021-02-05，已超过 1 年没有更新，涉及的内容可能已经失效！";var date1="2021-02-05 10:03:17";date1=date1.replace("-","/");var date2=new Date();var date3=date2.getTime()-new Date(date1).getTime();var days=Math.floor(date3/(24*3600*1000));if(days>=365){document.getElementById("warn").innerHTML=content};
+content="本文最后更新于2021-02-07，已超过 1 年没有更新，涉及的内容可能已经失效！";var date1="2021-02-07 11:13:25";date1=date1.replace("-","/");var date2=new Date();var date3=date2.getTime()-new Date(date1).getTime();var days=Math.floor(date3/(24*3600*1000));if(days>=365){document.getElementById("warn").innerHTML=content};
 </script>
 <style>#magnifyImg{position:fixed;left:0;top:0;text-align:center;width:100%;display:none;z-index:9999}#magnifyImg img{object-fit:contain;background:#eaecef;padding:15px;border-radius:10px;height:auto;width:auto;vertical-align:middle}</style>
 <a id="scrollUp" href="#top" style="position: fixed; z-index: 2147483647; display: block;"></a><div class="footer animated fadeInDown"><div class="site_footer"><div class="mysocials"><div class="my_socials"></div></div><div class="copyright"id="copyright">Powered by<a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a>Copyright © 2018-2020 <a href="https://www.sailstars.one" style="margin:0;">SailStars</a>.</div>
