@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://www.sailstars.one</id>
     <title>SailStars</title>
-    <updated>2021-02-07T06:18:04.635Z</updated>
+    <updated>2021-02-07T06:34:19.844Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://www.sailstars.one"/>
     <link rel="self" href="https://www.sailstars.one/atom.xml"/>
@@ -19,11 +19,9 @@
         <content type="html"><![CDATA[<p>默认的Android-x86安装程序在安装到硬盘时会生成一个 .img 磁盘镜像文件，在这个虚拟的磁盘上进行读写速度效率低，而且系统分区（system.sfs）也是被虚拟加载因而即使获取 root 权限也不能修改 system 分区中的系统文件。本文介绍我自己研究的方法，可以将 system、data 分区直接部署至硬盘的 ext4 分区，这样可以提高读写效率，并可以直接修改系统文件。<br>
 <br/></p>
 <p style="color:#AAA">鉴于UEFI的高效率以及现在绝大多数电脑已使用UEFI启动，本文叙述的为电脑使用UEFI启动的情况，Legacy启动不再讨论。</p><br/>
-<p><strong>准备工作</strong></p>
-<ol>
-<li>
-<p>一个大于 4GB 的空U盘作为启动盘，装有 WindowsPE 并且支持 UEFI 启动。<a href="http://www.ushendu.com/" target="blank" style="color:#00AAFF">深度启动盘(下载UEFI版)</a><br/><a href="https://s3.ax1x.com/2021/02/05/yJGek4.png" target="blank"><img src="https://s3.ax1x.com/2021/02/05/yJGek4.png" /></a></p>
-</li>
+<div class="division">准备工作</div>
+1. 一个大于 4GB 的空U盘作为启动盘，装有 WindowsPE 并且支持 UEFI 启动。<a href="http://www.ushendu.com/" target="blank" style="color:#00AAFF">深度启动盘(下载UEFI版)</a><br/><a href="https://s3.ax1x.com/2021/02/05/yJGek4.png" target="blank"><img src="https://s3.ax1x.com/2021/02/05/yJGek4.png" /></a>
+<ol start="2">
 <li>
 <p>下载 Ubuntu 任意版本 iso 镜像，并将其解压至U盘数据分区根目录。<a href="https://mirrors.tuna.tsinghua.edu.cn/ubuntu-cdimage/ubuntu/releases/" target="blank" style="color:#00AAFF">Ubuntu镜像</a><br>
 <a href="https://s3.ax1x.com/2021/02/05/yJGttH.png" target="blank"><img src="https://s3.ax1x.com/2021/02/05/yJGttH.png" /></a></p>
@@ -42,7 +40,7 @@
 <p>电脑操作基础。</p>
 </li>
 </ol>
-<p><strong>正式开始</strong></p>
+<div class="division">正式开始</div>
 <ol>
 <li>在 Windows 中打开 DiskGenius，根据需要为 Android-x86 在非C盘的分区上拆分出合适大小的系统分区，我这里设定了 10GB。右键单击欲拆分的分区，选择<b style="color:#F66">调整分区大小</b>，在<b style="color:#F66">分区后部的空间</b>后面输入 10GB ，<kbd>回车</kbd>，点击 <b style="color:#F66">开始</b>，等待完成。<br>
 若报错，以<strong>管理员模式</strong>运行命令提示符，运行<code>chkdsk X: /f</code>，其中 X 为需要拆分的盘符。运行完毕后重启，再执行 <strong>调整分区大小</strong>。<a href="https://s3.ax1x.com/2021/02/05/yJt6AO.png" target="blank"><img src="https://s3.ax1x.com/2021/02/05/yJt6AO.png"  /></a><a href="https://s3.ax1x.com/2021/02/05/yJtcND.png" target="blank"><img src="https://s3.ax1x.com/2021/02/05/yJtcND.png" /></a><br/></li>

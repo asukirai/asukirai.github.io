@@ -23,11 +23,20 @@ a {
 img {
   max-width: 100%;
 }
+.division {
+  width: 90%;
+  font-weight: blod;
+  margin: 20px -20px 20px -26px;
+  padding: 10px 20px 10px 10px;
+  line-height: 24px;
+  border-left: 6px solid #0099FF;
+  background-color: #f5f5f5;
+}
 kbd {
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
   -o-border-radius: 4px;
-  -khtml-border-radius: 4px;
+  -khtml-border-radius: 4x;
   border-radius: 4px;
   border-style: outset;
   border: 1px solid #aaa;
