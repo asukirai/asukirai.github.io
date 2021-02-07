@@ -11,8 +11,7 @@ body {
   word-spacing: 0;
   letter-spacing: 0;
   font-size: 16px;
-  font-family: Helvetica, Tahoma, Arial, "Heiti SC", "Microsoft YaHei", "WenQuanYi Micro Hei";
-  font-family: Helvetica, Tahoma, Arial, "PingFang SC", "Hiragino Sans GB", "Heiti SC", "Microsoft YaHei", "WenQuanYi Micro Hei";
+  font-family: Helvetica Neue, Helvetica, Segoe UI, Arial, freesans, sans-serif, "Heiti SC", "Microsoft YaHei";
   text-rendering: optimizeLegibility;
   line-height: 2.1;
   scroll-behavior: smooth;
@@ -24,9 +23,7 @@ img {
   max-width: 100%;
 }
 .division {
-  width: 90%;
   font-weight: blod;
-  margin: 20px -20px 20px -26px;
   padding: 10px 20px 10px 10px;
   line-height: 24px;
   border-left: 6px solid #0099FF;
@@ -61,7 +58,7 @@ a:hover {
   text-decoration: none !important;
 }
 code {
-  font-family: Arial, serif;
+  font-family: Helvetica Neue, Helvetica, Segoe UI, Arial, freesans, sans-serif, "Heiti SC", "Microsoft YaHei";
   word-wrap: break-word;
   padding: 2px 4px;
   border-radius: 4px;
