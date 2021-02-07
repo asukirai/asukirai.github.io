@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://www.sailstars.one</id>
     <title>SailStars</title>
-    <updated>2021-02-07T05:08:37.160Z</updated>
+    <updated>2021-02-07T05:12:07.180Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://www.sailstars.one"/>
     <link rel="self" href="https://www.sailstars.one/atom.xml"/>
@@ -61,7 +61,7 @@ $ <code>mkdir ~/2</code><br>
 $ <code>sudo mount -o loop system.img ~/2</code><br/><br/></li>
 <li>在上一步打开的终端管理器中输入以下命令，回车执行：<br/><br>
 $ <code>sudo nautilus</code><br/><br>
-在弹出的新的、以 root 用户启动的文件管理器中，在左侧栏找到前面记的、<strong>ext4分区</strong>对应字符的分区，单击进入，右键单击空白处，选择 <b style="color:#F66">New Folder</b>，新建 <b style="color:#F66">data</b> 和 <b style="color:#F66">system</b> 两个文件夹。后退，进入 <strong>镜像分区</strong> 对应字符的分区，选中 <b style="color:#F66">ramdisk.img</b>、<b style="color:#F66">kernel</b>、<b style="color:#F66">initrd.img</b>，<kbd>Ctrl</kbd>+<kbd>C</kbd> 复制，再返回 <strong>ext4分区</strong>，<kbd>Ctrl</kbd>+<kbd>V</kbd> 粘贴。<br>
+在弹出的新的、以 root 用户启动的文件管理器中，在左侧栏找到前面记的、<strong>ext4分区</strong>对应字符的分区，单击进入，右键单击空白处，选择 <b style="color:#F66">New Folder</b>，新建 <b style="color:#F66">data</b> 和 <b style="color:#F66">system</b> 两个文件夹。后退，进入 <strong>镜像分区</strong> 对应字符的分区，选中<b style="color:#F66">ramdisk.img</b>、<b style="color:#F66">kernel</b>、<b style="color:#F66">initrd.img</b>，右键复制，再返回 <strong>ext4分区</strong>，右键粘贴。<br>
 <a href="https://s3.ax1x.com/2021/02/07/yt6oVg.jpg" target="blank"><img src="https://s3.ax1x.com/2021/02/07/yt6oVg.jpg" /></a></li>
 <li>完成后关闭这个文件管理器，此时返回的是打开这个文件管理器的终端，按 <kbd>Ctrl</kbd>+<kbd>C</kbd> 结束未结束的进程。再输入以下命令，<kbd>回车</kbd>执行：<br/><br>
 $ <code>sudo cp -r ~/2/* ./system</code><br/><br>
