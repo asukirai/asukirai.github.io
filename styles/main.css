@@ -11,7 +11,7 @@ body {
   word-spacing: 0;
   letter-spacing: 0;
   font-size: 16px;
-  font-family: Helvetica Neue, Helvetica, Segoe UI, Arial, freesans, sans-serif, "Heiti SC", "Microsoft YaHei";
+  font-family: Verdana, Arial, freesans, sans-serif, "Heiti SC", "Microsoft YaHei";
   text-rendering: optimizeLegibility;
   line-height: 2.1;
   scroll-behavior: smooth;
@@ -58,7 +58,7 @@ a:hover {
   text-decoration: none !important;
 }
 code {
-  font-family: Helvetica Neue, Helvetica, Segoe UI, Arial, freesans, sans-serif, "Heiti SC", "Microsoft YaHei";
+  font-family: Consolas, Arial, freesans, sans-serif, "Heiti SC", "Microsoft YaHei";
   word-wrap: break-word;
   padding: 2px 4px;
   border-radius: 4px;
