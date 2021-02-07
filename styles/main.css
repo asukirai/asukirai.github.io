@@ -30,6 +30,7 @@ img {
   background-color: #f5f5f5;
 }
 kbd {
+  font-family: Consolas, Arial, "Heiti SC", "Microsoft YaHei";
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
   -o-border-radius: 4px;
