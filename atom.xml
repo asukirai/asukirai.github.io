@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://www.sailstars.one</id>
     <title>SailStars</title>
-    <updated>2021-02-07T05:12:07.180Z</updated>
+    <updated>2021-02-07T05:59:11.236Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://www.sailstars.one"/>
     <link rel="self" href="https://www.sailstars.one/atom.xml"/>
@@ -72,6 +72,8 @@ $ <code>sudo cp -r ~/2/* ./system</code><br/><br>
 <img src="https://s3.ax1x.com/2021/02/07/ytgt6x.jpg" /><img src="https://s3.ax1x.com/2021/02/07/ytgY11.jpg" /></li>
 <li>如果你已经安装了 Ubuntu 等基于 Linux 的系统，我相信你会直接向其引导文件中添加 Android-x86 启动项。或者可以使用这个 grub 引导 Windows。</li>
 </ol>
+<p>#酷比魔方i7安装Android x86后WiFi打不开<br>
+删除/system/lib/module/****/kernel/drivers/net/wireless/realtek/rtl8xxxu，重启设备</p>
 <!-- 
 #安装 ARM 兼容库
 凤凰系统已经预装了ARM兼容运行库，但原生 Android-86没有。且系统自带安装脚本中的下载链接已失效，需要于本地安装。
@@ -85,6 +87,8 @@ $ <code>sudo cp -r ~/2/* ./system</code><br/><br>
 1. 凤凰系统重力感应没有问题，但旋转屏幕后任务栏无反应，暂不知原因；
 2. RootExplorer 打开 `/system/etc/init.sh`，修改；
 3. 重启生效。
+
+
 -->]]></content>
     </entry>
     <entry>
