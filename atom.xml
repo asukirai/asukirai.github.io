@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://www.sailstars.one</id>
     <title>SailStars</title>
-    <updated>2021-02-08T16:03:05.087Z</updated>
+    <updated>2021-02-08T16:03:28.818Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://www.sailstars.one"/>
     <link rel="self" href="https://www.sailstars.one/atom.xml"/>
@@ -10,26 +10,6 @@
     <logo>https://www.sailstars.one/images/avatar.png</logo>
     <icon>https://www.sailstars.one/favicon.ico</icon>
     <rights>All rights reserved 2021, SailStars</rights>
-    <entry>
-        <title type="html"><![CDATA[另类Wi-Fi中继]]></title>
-        <id>https://www.sailstars.one/post/L2cMH1XUC/</id>
-        <link href="https://www.sailstars.one/post/L2cMH1XUC/">
-        </link>
-        <updated>2021-02-08T15:14:15.000Z</updated>
-        <content type="html"><![CDATA[<p>暂不讨论效率问题，仅为利用闲置设备考虑。<br/><br/>效果：<br/><br>
-<a href="https://item.jd.com/773352.html" target="blank" style="color:#00AAFF">雷达天线 USB 网卡</a>(Realtek RTL8818GU)接收 2.4GHz Wi-Fi，<a href="https://item.jd.com/6050357.html" target="blank" style="color:#00AAFF">水星UD13</a>(Mediatek MT7612U)发射 5.8GHz Wi-Fi。Windows 10。下载稳定。延迟稳定。</p>
-<div style="background:linear-gradient(to left,#FFFFFF,#AAAAAA,#FFFFFF);height:1px;"></div><br/>
-在那个还在蹭邻居Wi-Fi😅的年代，怎样保证稳定性及覆盖一直是我头疼的问题。邻居的网在客厅信号最强，但下载速度仍时快时慢。尝试过使用腾(垃)达(圾)路由器的 WISP 功能、小米无线 Wi-Fi 中继器，结果这两个兄弟连邻居的路由器都连不上，倒是手机、电脑可以勉强用。为了愉快的蹭网，我购买了上述两个无线网卡，经测试在电脑上使用效果都不错，雷达天线的效果更好，但是怎样才能让手机、平板等其他设备也用上呢？<br/><br/>
-你可能会说：开热点啊。<br/><br/>
-没错，开热点很简单，但是开一个符合我要求的热点却很难：2.4GHz 的网卡连路由，5.8GHz的网卡开 5GHz 的热点。<br/><br/>
-只有你经历过这个探索，才会知道在 Windows 上建热点有多恶心。<br/><br/>
-1. 自带热点有时候没有 5GHz 的选项，即使有也不让你用，查相关资料说必须在 已连接到 **5GHz Wi-Fi** 的情况下才能建 5GHz 的热点。<img src="https://s3.ax1x.com/2021/02/08/yaKYDK.jpg" />
-2. 在驱动配置中强制 仅使用 5GHz，使用猎豹免费 Wi-Fi，它会分不清楚哪个是内置、哪个是外置网卡，尤其是我插了两个 USB 网卡并且拔掉内置 Mini-PCIE 网卡的时候，会断线重连，开热点的设备自动换回 2.4GHz 网卡。
-3. 使用网传的 netsh wlan start hostednetwork 命令只有在 Mini-PCIE 网卡支持的时候才可以用，USB 网卡不要想，我从来没有成功过。<br/><br/>
-......<br/><br/>
-同时，我发现用很多 USB 网卡玩游戏、下载东西的时候会间歇性突然掉卡，找不到硬件，然后再重新发现硬件，再重复。MT7612U也不例外。就在凑合过日子的时候，研究Mediatek自带驱动管理软件给了我新发现。它可以指定信道开启热点😱。
-]]></content>
-    </entry>
     <entry>
         <title type="html"><![CDATA[部署Android-x86（凤凰系统）到硬盘]]></title>
         <id>https://www.sailstars.one/post/jlek0o6tf/</id>
