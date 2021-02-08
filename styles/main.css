@@ -838,9 +838,6 @@ pre .cl {
   border-bottom: 2px #beb1b1;
   transition: border-color 0.2s;
 }
-.search-input:hover {
-  width: 180px;
-}
 #eof {
   text-align: center;
   font-size: 1.5em;
