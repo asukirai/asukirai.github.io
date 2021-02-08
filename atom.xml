@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://www.sailstars.one</id>
     <title>SailStars</title>
-    <updated>2021-02-08T15:10:52.460Z</updated>
+    <updated>2021-02-08T15:40:03.362Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://www.sailstars.one"/>
     <link rel="self" href="https://www.sailstars.one/atom.xml"/>
@@ -34,7 +34,7 @@
 6. 完成后关闭这个文件管理器，此时返回的是打开这个文件管理器的终端，按 <kbd>Ctrl</kbd>+<kbd>C</kbd> 结束未结束的进程。再输入以下命令，<kbd>回车</kbd>执行：<pre><code>sudo cp -r ~/2/* ./system</code></pre><br/>待出现新的一行时系统文件已被复制进 ext4 分区中的 system 目录。<a href="https://s3.ax1x.com/2021/02/07/ytcmZD.jpg" target="blank"><img src="https://s3.ax1x.com/2021/02/07/ytcmZD.jpg" /></a><br/>
 7. 重启进入 U盘的 <b style="color:#CC585A">UEFI启动盘</b>(使用深度 UEFI 启动盘时一般为U盘第4个分区)，将 grub.zip 解压后的 <b style="color:#CC585A">EFI</b> 和 <b style="color:#CC585A">boot</b> 两个文件夹复制至总容量 96MB 左右的 EFI 启动分区根目录，并记住这个磁盘的盘符。<a href="https://s3.ax1x.com/2021/02/07/ytc8QP.jpg" target="blank"><img src="https://s3.ax1x.com/2021/02/07/ytc8QP.jpg"/></a><br/>
 8. 在 Windows PE 中使用 BOOTICE 添加 <b style="color:#CC585A">启动分区/EFI/boot/grubx64.efi</b> 启动项，设置名称 Android，保存(这个软件有时点完添加后没反应，需要在左侧左键切换几个启动项后再点添加才会提示成功)。<a href="https://s3.ax1x.com/2021/02/07/ytchWR.jpg" target="blank"><img src="https://s3.ax1x.com/2021/02/07/ytchWR.jpg"  /></a><a href="https://s3.ax1x.com/2021/02/07/ytcIQx.jpg" target="blank"><img src="https://s3.ax1x.com/2021/02/07/ytcIQx.jpg" /></a><a href="https://s3.ax1x.com/2021/02/07/ytc5S1.jpg" target="blank"><img src="https://s3.ax1x.com/2021/02/07/ytc5S1.jpg"  /></a><br/>
-9. 重启，开机项选择 Android，这时如果不是硬件兼容性问题，应该可以启动了，并且可以在内置文件管理器已获取root权限的情况下直接修改系统文件了。
+9. 重启，开机项选择 Android，这时如果不是硬件兼容性问题，应该可以启动了，并且可以在第三方文件管理器已获取root权限的情况下直接修改系统文件了。
 <img src="https://s3.ax1x.com/2021/02/07/ytgt6x.jpg" /><img src="https://s3.ax1x.com/2021/02/07/ytgY11.jpg" /><br/>
 10. 如果你已经安装了 Ubuntu 等基于 Linux 的系统，我相信你会直接向其引导文件中添加 Android-x86 启动项。或者可以使用这个 grub 引导 Windows。<br/><br/><br/><br/>
 <p>#<strong>安装 ARM 兼容库</strong><br>
