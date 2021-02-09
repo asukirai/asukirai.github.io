@@ -30,7 +30,7 @@ img {
   background-color: #f5f5f5;
 }
 kbd {
-  font-family: Consolas, Arial, "Heiti SC", "Microsoft YaHei";
+  font-family: Consolas, Courier, "Heiti SC", "Microsoft YaHei";
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
   -o-border-radius: 4px;
@@ -59,7 +59,7 @@ a:hover {
   text-decoration: none !important;
 }
 code {
-  font-family: Consolas, freesans, sans-serif, "Heiti SC", "Microsoft YaHei";
+  font-family: Consolas, Courier, "Heiti SC", "Microsoft YaHei";
   word-wrap: break-word;
   padding: 2px 4px;
   border-radius: 4px;
