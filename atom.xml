@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://www.sailstars.one</id>
     <title>SailStars</title>
-    <updated>2021-02-10T18:56:34.671Z</updated>
+    <updated>2021-02-10T18:57:49.606Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://www.sailstars.one"/>
     <link rel="self" href="https://www.sailstars.one/atom.xml"/>
@@ -17,11 +17,11 @@
         </link>
         <updated>2021-02-10T18:51:54.000Z</updated>
         <summary type="html"><![CDATA[<p>得像一只蟹黄堡</p>
-<center><img src="https://s3.ax1x.com/2021/02/11/y0L42j.png" width="30%" />&nbsp;<img src="https://s3.ax1x.com/2021/02/11/y0L5xs.png" width="30%"  /></center>
+<center><a href="https://s3.ax1x.com/2021/02/11/y0L42j.png" target="blank"><img src="https://s3.ax1x.com/2021/02/11/y0L42j.png" width="40%" /></a>&nbsp;<a href="https://s3.ax1x.com/2021/02/11/y0L5xs.png" target="blank"><img src="https://s3.ax1x.com/2021/02/11/y0L5xs.png" width="40%"  /></a></center>
 <div class="sig">by Sail</div>
 ]]></summary>
         <content type="html"><![CDATA[<p>得像一只蟹黄堡</p>
-<center><img src="https://s3.ax1x.com/2021/02/11/y0L42j.png" width="30%" />&nbsp;<img src="https://s3.ax1x.com/2021/02/11/y0L5xs.png" width="30%"  /></center>
+<center><a href="https://s3.ax1x.com/2021/02/11/y0L42j.png" target="blank"><img src="https://s3.ax1x.com/2021/02/11/y0L42j.png" width="40%" /></a>&nbsp;<a href="https://s3.ax1x.com/2021/02/11/y0L5xs.png" target="blank"><img src="https://s3.ax1x.com/2021/02/11/y0L5xs.png" width="40%"  /></a></center>
 <div class="sig">by Sail</div>
 <!-- more -->
 ]]></content>
