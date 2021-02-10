@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://www.sailstars.one</id>
     <title>SailStars</title>
-    <updated>2021-02-10T18:28:59.198Z</updated>
+    <updated>2021-02-10T18:40:42.862Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://www.sailstars.one"/>
     <link rel="self" href="https://www.sailstars.one/atom.xml"/>
@@ -17,11 +17,10 @@
         </link>
         <updated>2021-02-10T15:14:15.000Z</updated>
         <content type="html"><![CDATA[<p>    这个标题其实有一点问题，单个网卡的网络传输都是需要同时收发的。我的意思是一个网卡用来连路由，另一个用来开热点。本文不讨论效率问题，仅为利用闲置设备考虑。</p>
-<p>效果：</p>
-<p><a href="https://item.jd.com/773352.html" target="blank" style="color:#00AAFF">雷达天线 USB 网卡</a> (Realtek RTL8818GU) 连接 2.4GHz 上级路由。</p>
-<p><a href="https://item.jd.com/6050357.html" target="blank" style="color:#00AAFF">水星UD13H</a> (Mediatek MT7612U) 建立 5.8GHz 热点。</p>
-<p>下载稳定。延迟稳定。<br>
-<img src="https://s3.ax1x.com/2021/02/11/y0TuqO.jpg" /></p>
+<p>    效果：</p>
+<p>    <a href="https://item.jd.com/773352.html" target="blank" style="color:#00AAFF">雷达天线 USB 网卡</a> (Realtek RTL8818GU) 连接 2.4GHz 上级路由。</p>
+<p>    <a href="https://item.jd.com/6050357.html" target="blank" style="color:#00AAFF">水星UD13H</a> (Mediatek MT7612U) 建立 5.8GHz 热点。</p>
+<p>    下载稳定。延迟稳定。<img src="https://s1.ax1x.com/2020/04/02/GtsqfK.png" /><img src="https://s3.ax1x.com/2021/02/11/y0TuqO.jpg" /></p>
 <div style="background:linear-gradient(to left,#FFFFFF,#AAAAAA,#FFFFFF);height:1px;"></div>
 <p>    在那个还在蹭邻居Wi-Fi😅的年代，怎样保证稳定性及覆盖一直是我头疼的问题。邻居的网在客厅信号最强，但用笔记本内置网卡下载时，速度仍时快时慢。尝试过使用腾(垃)达(圾)路由器的 WISP 功能、小米无线 Wi-Fi 中继器，结果这两个兄弟连邻居的路由器都连不上，倒是手机、电脑可以勉强用。</p>
 <p>    为了愉快的蹭网，我购买了上述两个无线网卡，经测试在电脑上使用效果都不错，雷达天线的效果更好，但是怎样才能让手机、平板等其他设备也用上呢？</p>
@@ -60,7 +59,7 @@
 ]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[部署Android-x86（凤凰系统）到硬盘]]></title>
+        <title type="html"><![CDATA[部署 Android-x86（凤凰系统）到硬盘]]></title>
         <id>https://www.sailstars.one/post/jlek0o6tf/</id>
         <link href="https://www.sailstars.one/post/jlek0o6tf/">
         </link>
@@ -161,7 +160,7 @@ enable_nativebridge<br>
 购买链接：<a href="https://item.jd.com/10020928677626.html" target="blank" style="color:#00AAFF">派威转接线</a>&nbsp;&nbsp;<a href="https://item.jd.com/10021792873635.html" target="blank" style="color:#00AAFF">甜橙转接线</a><br/><br/><br/>
 <div style="background:linear-gradient(to left,#FFFFFF,#AAAAAA,#FFFFFF);height:1px;"></div><br/><br/>
 啰嗦几句。<br/><br/>
-我们的目标很简单：<br/>
+我们的目标很简单：
 1. 耳机、麦克风的音量、音质正常。
 2. 能够开启快速充电(充电电压高于5V)。
 <p>但就是这样简单的目标，绝大多数转接线都做不到。</p>
@@ -190,16 +189,12 @@ enable_nativebridge<br>
         <link href="https://www.sailstars.one/post/SdBasjsyr/">
         </link>
         <updated>2021-02-01T14:32:42.000Z</updated>
-        <summary type="html"><![CDATA[<p>&quot;就是允许你用刀子搅动我的心&quot;<br>
-<br/></p>
-<center><img src="https://s3.ax1x.com/2021/02/01/yeHsfK.jpg" style="width:100%"/>
-<br/></center>
+        <summary type="html"><![CDATA[<p>&quot;就是允许你用刀子搅动我的心&quot;</p>
+<img src="https://s3.ax1x.com/2021/02/01/yeHsfK.jpg" />
 <div class="sig">by Stars</div>
 ]]></summary>
-        <content type="html"><![CDATA[<p>&quot;就是允许你用刀子搅动我的心&quot;<br>
-<br/></p>
-<center><img src="https://s3.ax1x.com/2021/02/01/yeHsfK.jpg" style="width:100%"/>
-<br/></center>
+        <content type="html"><![CDATA[<p>&quot;就是允许你用刀子搅动我的心&quot;</p>
+<img src="https://s3.ax1x.com/2021/02/01/yeHsfK.jpg" />
 <div class="sig">by Stars</div>
 <!-- more -->
 ]]></content>
@@ -210,13 +205,13 @@ enable_nativebridge<br>
         <link href="https://www.sailstars.one/post/cRNCdW-L1/">
         </link>
         <updated>2021-02-01T12:42:46.000Z</updated>
-        <summary type="html"><![CDATA[<center>已转移至更为稳定的GitHub.<br/>心境依旧，心意不变.<br/><br/>
-<img src="https://s3.ax1x.com/2021/01/31/yVQ49P.jpg" style="width:100%" />
-</center>
+        <summary type="html"><![CDATA[<p>已转移至更为稳定的GitHub.<br>
+心境依旧，心意不变.</p>
+<img src="https://s3.ax1x.com/2021/01/31/yVQ49P.jpg" width="100%" />
 ]]></summary>
-        <content type="html"><![CDATA[<center>已转移至更为稳定的GitHub.<br/>心境依旧，心意不变.<br/><br/>
-<img src="https://s3.ax1x.com/2021/01/31/yVQ49P.jpg" style="width:100%" />
-</center>
+        <content type="html"><![CDATA[<p>已转移至更为稳定的GitHub.<br>
+心境依旧，心意不变.</p>
+<img src="https://s3.ax1x.com/2021/01/31/yVQ49P.jpg" width="100%" />
 <!-- more -->
 ]]></content>
     </entry>

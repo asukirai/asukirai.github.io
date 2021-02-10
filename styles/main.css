@@ -13,9 +13,6 @@ div.sig {
   color: #AAAAAA;
   font-family: Ink Free,Savoye LET,Snell Roundhand,Trebuchet MS;
 }
-img {
-  max-width: 100%;
-}
 table.diy {
   box-sizing: border-box;
   margin: 1em 0;
@@ -81,6 +78,9 @@ body {
   text-rendering: optimizeLegibility;
   line-height: 2.1;
   scroll-behavior: smooth;
+}
+body img {
+  max-width: 100%;
 }
 a {
   text-decoration: none;
