@@ -1,3 +1,69 @@
+/*  User Modified Block */
+code {
+  font-family: Consolas, Courier, "Heiti SC", "Microsoft YaHei";
+  word-wrap: break-word;
+  padding: 2px 4px;
+  border-radius: 4px;
+  margin: 0 2px;
+  color: #CC585A;
+  background: #FEF6F2;
+}
+div.sig {
+  text-align: right;
+  color: #AAAAAA;
+  font-family: Ink Free,Savoye LET,Snell Roundhand,Trebuchet MS;
+}
+img {
+  max-width: 100%;
+}
+table.diy {
+  box-sizing: border-box;
+  margin: 1em 0;
+  width: 100%;
+  max-width: 95%;
+  border-style: solid;
+  border-width: 1px;
+  background-color: transparent;
+  line-height: 1.7;
+  border-spacing: 0;
+  word-break: normal;
+}
+table.diy tr {
+  border: 0;
+  border-top: 1px solid #ccc;
+  background-color: #fff !important;
+}
+table.diy tr:nth-child(2n) {
+  background-color: #f8f8f8 !important;
+}
+table.diy tr td,
+table.diy tr th {
+  padding: 0.5em 1em;
+  border: 1px solid #ccc;
+  text-align: left;
+  font-size: 1em;
+}
+table.diy tr th {
+  background-color: #f0f0f0 !important;
+  font-weight: 700;
+}
+kbd {
+  font-family: Consolas, Courier, "Heiti SC", "Microsoft YaHei";
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -o-border-radius: 4px;
+  -khtml-border-radius: 4x;
+  border-radius: 4px;
+  border-style: outset;
+  border: 1px solid #aaa;
+  background: #fafafa;
+  padding: 0px 3px 1px 3px;
+  margin: 0px 0px 0px 0px;
+  vertical-align: baseline;
+  line-height: 1.8em;
+  white-space: nowrap;
+}
+/*  User Modified Block */
 html {
   -webkit-font-smoothing: antialiased;
   scroll-behavior: smooth;
@@ -19,32 +85,6 @@ body {
 a {
   text-decoration: none;
 }
-img {
-  max-width: 100%;
-}
-.division {
-  font-weight: blod;
-  padding: 10px 20px 10px 10px;
-  line-height: 24px;
-  border-left: 6px solid #0099FF;
-  background-color: #f5f5f5;
-}
-kbd {
-  font-family: Consolas, Courier, "Heiti SC", "Microsoft YaHei";
-  -webkit-border-radius: 4px;
-  -moz-border-radius: 4px;
-  -o-border-radius: 4px;
-  -khtml-border-radius: 4x;
-  border-radius: 4px;
-  border-style: outset;
-  border: 1px solid #aaa;
-  background: #fafafa;
-  padding: 0px 3px 1px 3px;
-  margin: 0px 0px 0px 0px;
-  vertical-align: baseline;
-  line-height: 1.8em;
-  white-space: nowrap;
-}
 a:link,
 a:visited {
   border-bottom: 1px #ddd;
@@ -58,16 +98,15 @@ a:hover {
   color: #e42b2b;
   text-decoration: none !important;
 }
-code {
-  font-family: Consolas, Courier, "Heiti SC", "Microsoft YaHei";
-  word-wrap: break-word;
-  padding: 2px 4px;
-  border-radius: 4px;
-  margin: 0 2px;
-  color: #CC585A;
-  background: #FEF6F2;
-  font-size: 0.8em;
-}
+/* code {
+	font-family: Consolas,Courier, "Heiti SC", "Microsoft YaHei";
+    word-wrap: break-word;
+    padding: 2px 4px;
+    border-radius: 4px;
+    margin: 0 2px;
+    color: #CC585A;
+	  background: #FEF6F2;
+} */
 ::-webkit-scrollbar {
   width: 6px;
   height: 6px;
@@ -659,46 +698,49 @@ code {
   right: 0;
   bottom: 0;
 }
+/*
 .md_block pre {
-  border-radius: 2px;
-  font-size: inherit;
-  font-family: Consolas, Inconsolata, Courier, monospace;
-  line-height: inherit;
+    border-radius: 2px;
+    font-size: inherit;
+    font-family: Consolas, Inconsolata, Courier, monospace;
+    line-height: inherit
 }
+
 .md_block table {
-  box-sizing: border-box;
-  margin: 1em 0;
-  width: 100%;
-  max-width: 100%;
-  border-style: solid;
-  border-width: 1px;
-  background-color: transparent;
-  line-height: 1.7;
-  border-spacing: 0;
-  word-break: normal;
+    box-sizing: border-box;
+    margin: 1em 0;
+    width: 100%;
+    max-width: 100%;
+    border-style: solid;
+    border-width: 1px;
+    background-color: transparent;
+    line-height: 1.7;
+    border-spacing: 0;
+    word-break: normal
 }
 .md_block tbody {
-  border: 0;
+    border: 0
 }
 .md_block table tr {
-  border: 0;
-  border-top: 1px solid #ccc;
-  background-color: #fff !important;
+    border: 0;
+    border-top: 1px solid #ccc;
+    background-color: #fff !important
 }
 .md_block table tr:nth-child(2n) {
-  background-color: #f8f8f8 !important;
+    background-color: #f8f8f8 !important
 }
 .md_block table tr td,
 .md_block table tr th {
-  padding: 0.5em 1em;
-  border: 1px solid #ccc;
-  text-align: left;
-  font-size: 1em;
+    padding: .5em 1em;
+    border: 1px solid #ccc;
+    text-align: left;
+    font-size: 1em
 }
 .md_block table tr th {
-  background-color: #f0f0f0 !important;
-  font-weight: 700;
+    background-color: #f0f0f0 !important;
+    font-weight: 700
 }
+*/
 .md_block strong {
   font-weight: 700;
 }
@@ -792,22 +834,22 @@ div.code-toolbar > .toolbar span:hover {
 .md_block code {
   overflow-x: auto;
 }
-pre .line-number,
-pre code {
-  display: block;
-  padding: 0 0.5em;
-  color: #000;
-  font: Courier New, Courier, Monospace;
-  font-size: 0.8em;
-  color: #CC585A;
-}
+/* pre .line-number, pre code {
+    display: block;
+    padding: 0 .5em;
+    color: #000;
+    font: Courier New, Courier, Monospace;
+    color: #CC585A;
+} */
 pre .line-number {
   float: left;
-  margin: 0 1em 0 -1em;
   border-right: 1px solid;
   text-align: right;
+  margin: 0.5em 0 0 -2em;
 }
 pre .line-number span {
+  font-family: Consolas, Courier, "Heiti SC", "Microsoft YaHei";
+  color: #aaa;
   display: block;
   padding: 0 0.5em 0 1em;
 }
