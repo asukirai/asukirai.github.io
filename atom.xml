@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://www.sailstars.one</id>
     <title>SailStars</title>
-    <updated>2021-02-10T18:17:15.630Z</updated>
+    <updated>2021-02-10T18:22:09.684Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://www.sailstars.one"/>
     <link rel="self" href="https://www.sailstars.one/atom.xml"/>
@@ -41,7 +41,7 @@
 </ol>
 <p>#<b>具体方法：</b></p>
 <ol>
-<li>安装 Mediatek 官网驱动，安装时选择 安装驱动程序与 Mediatek 无线网络设定程序。<br>
+<li>安装 Mediatek <a href="https://www.mediatek.cn/products/broadbandWifi/mt7612u" target="blank" style="color:#00AAFF">官网驱动</a>，安装时选择 安装驱动程序与 Mediatek 无线网络设定程序。<br>
 <img src="https://s3.ax1x.com/2021/02/11/y0oi9I.png" /></li>
 <li>在设备管器中更新网卡驱动，选择 802.11ac Wireless LAN Card。<br>
 <img src="https://s3.ax1x.com/2021/02/11/y0oK4s.png" /><img src="https://s3.ax1x.com/2021/02/11/y0ouNj.png" /><img src="https://s3.ax1x.com/2021/02/11/y0onEQ.png" /><img src="https://s3.ax1x.com/2021/02/11/y0oQCn.png" /></li>
