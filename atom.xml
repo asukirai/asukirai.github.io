@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://www.sailstars.one</id>
     <title>SailStars</title>
-    <updated>2021-02-13T14:33:59.295Z</updated>
+    <updated>2021-02-13T14:34:25.587Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://www.sailstars.one"/>
     <link rel="self" href="https://www.sailstars.one/atom.xml"/>
@@ -224,12 +224,10 @@ enable_nativebridge<br>
         <summary type="html"><![CDATA[<p>已转移至更为稳定的GitHub.<br>
 心境依旧，心意不变.</p>
 <img src="https://s3.ax1x.com/2021/01/31/yVQ49P.jpg" width="100%" />
-<div class="sig">by Sail</div>
 ]]></summary>
         <content type="html"><![CDATA[<p>已转移至更为稳定的GitHub.<br>
 心境依旧，心意不变.</p>
 <img src="https://s3.ax1x.com/2021/01/31/yVQ49P.jpg" width="100%" />
-<div class="sig">by Sail</div>
 <!-- more -->
 ]]></content>
     </entry>
