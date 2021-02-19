@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://www.sailstars.one</id>
     <title>SailStars</title>
-    <updated>2021-02-19T14:19:29.367Z</updated>
+    <updated>2021-02-19T14:31:02.962Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://www.sailstars.one"/>
     <link rel="self" href="https://www.sailstars.one/atom.xml"/>
@@ -91,12 +91,12 @@
 ]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[部署 Android-x86（凤凰系统）到硬盘]]></title>
+        <title type="html"><![CDATA[部署 Android-x86 到硬盘]]></title>
         <id>https://www.sailstars.one/post/jlek0o6tf/</id>
         <link href="https://www.sailstars.one/post/jlek0o6tf/">
         </link>
         <updated>2021-02-07T03:13:25.000Z</updated>
-        <content type="html"><![CDATA[<p>默认的Android-x86安装程序在安装到硬盘时会生成一个 .img 磁盘镜像文件，在这个虚拟的磁盘上进行读写效率低，而且系统分区（system.sfs）也是被虚拟加载因而即使获取 root 权限也不能修改 system 分区中的系统文件。本文介绍我自己研究的方法，可以将 system、data 分区直接部署至硬盘的 ext4 分区，这样可以提高读写效率，并可以直接修改系统文件。</p>
+        <content type="html"><![CDATA[<p>默认的 Android-x86 安装程序在安装到硬盘时会生成一个 .img 磁盘镜像文件，在这个虚拟的磁盘上进行读写效率低，而且系统分区（system.sfs）也是被虚拟加载因而即使获取 root 权限也不能修改 system 分区中的系统文件。本文介绍我自己研究的方法，可以将 system、data 分区直接部署至硬盘的 ext4 分区，这样可以提高读写效率，并可以直接修改系统文件。</p>
 <p style="color:#AAA">我的设备均为 UEFI 引导模式，重装系统太麻烦，就不讨论 Legacy 启动了。思路类似，只需要想办法启动 grub 即可。</p>
 <p>#<b>准备工作</b></p>
 <ol>
@@ -107,7 +107,7 @@
 <p>下载 Ubuntu 任意版本 iso 镜像，并将其解压至U盘数据分区根目录。<a href="https://mirrors.tuna.tsinghua.edu.cn/ubuntu-cdimage/ubuntu/releases/" target="_blank" style="color:#00AAFF">Ubuntu镜像下载</a><a href="https://s3.ax1x.com/2021/02/05/yJGttH.png" target="_blank"><img src="https://s3.ax1x.com/2021/02/05/yJGttH.png" /></a></p>
 </li>
 <li>
-<p>下载 Android-x86 的 iso 镜像，并将 initrd.img、kernel、ramdisk.img、system.sfs(或 system.img) 解压至任意分区根目录(以下简称<b>镜像分区</b>)，并<b>记住这个分区的大小</b>(我这里解压到了一个 270GB 的分区)。<a href="http://www.phoenixos.com/download_x86" target="_blank" style="color:#00AAFF">凤凰系统</a> / <a href="http://www.x86android.com/category-2.html" target="_blank" style="color:#00AAFF">Android-x86</a><a href="https://s3.ax1x.com/2021/02/05/yJGa9A.png" target="_blank"><img src="https://s3.ax1x.com/2021/02/05/yJGa9A.png" /></a></p>
+<p>下载 Android-x86 的 iso 镜像，并将 initrd.img、kernel、ramdisk.img、system.sfs(或 system.img) 解压至任意分区根目录(以下简称<b>镜像分区</b>)，并<b>记住这个分区的大小</b>(我这里解压到了一个 270GB 的分区)。<a href="http://www.phoenixos.com/download_x86" target="_blank" style="color:#00AAFF">凤凰系统</a> / <a href="http://blissos.org/index.html#download" target="_blank" style="color:#00AAFF">BlissOS</a> / <a href="http://www.x86android.com/category-2.html" target="_blank" style="color:#00AAFF">Android-x86</a><a href="https://s3.ax1x.com/2021/02/05/yJGa9A.png" target="_blank"><img src="https://s3.ax1x.com/2021/02/05/yJGa9A.png" /></a></p>
 </li>
 <li>
 <p>下载 Grub 引导文件，解压至任意分区根目录。<a href="https://pan.baidu.com/s/1dD-NUk0-qu9bzdEUJIrwkw" target="_blank" style="color:#00AAFF">提取码：ax86</a></p>
