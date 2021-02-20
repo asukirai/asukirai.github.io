@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://www.sailstars.one</id>
     <title>SailStars</title>
-    <updated>2021-02-19T14:31:02.962Z</updated>
+    <updated>2021-02-20T03:02:02.834Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://www.sailstars.one"/>
     <link rel="self" href="https://www.sailstars.one/atom.xml"/>
@@ -107,7 +107,7 @@
 <p>下载 Ubuntu 任意版本 iso 镜像，并将其解压至U盘数据分区根目录。<a href="https://mirrors.tuna.tsinghua.edu.cn/ubuntu-cdimage/ubuntu/releases/" target="_blank" style="color:#00AAFF">Ubuntu镜像下载</a><a href="https://s3.ax1x.com/2021/02/05/yJGttH.png" target="_blank"><img src="https://s3.ax1x.com/2021/02/05/yJGttH.png" /></a></p>
 </li>
 <li>
-<p>下载 Android-x86 的 iso 镜像，并将 initrd.img、kernel、ramdisk.img、system.sfs(或 system.img) 解压至任意分区根目录(以下简称<b>镜像分区</b>)，并<b>记住这个分区的大小</b>(我这里解压到了一个 270GB 的分区)。<a href="http://www.phoenixos.com/download_x86" target="_blank" style="color:#00AAFF">凤凰系统</a> / <a href="http://blissos.org/index.html#download" target="_blank" style="color:#00AAFF">BlissOS</a> / <a href="http://www.x86android.com/category-2.html" target="_blank" style="color:#00AAFF">Android-x86</a><a href="https://s3.ax1x.com/2021/02/05/yJGa9A.png" target="_blank"><img src="https://s3.ax1x.com/2021/02/05/yJGa9A.png" /></a></p>
+<p>下载 Android-x86 的 iso 镜像(目前只有7.1及以下系统能在我的各类设备上正常启动，原因未知)，并将 initrd.img、kernel、ramdisk.img、system.sfs(或 system.img) 解压至任意分区根目录(以下简称<b>镜像分区</b>)，并<b>记住这个分区的大小</b>(我这里解压到了一个 270GB 的分区)。<a href="http://www.phoenixos.com/download_x86" target="_blank" style="color:#00AAFF">凤凰系统</a> / <a href="http://www.x86android.com/category-2.html" target="_blank" style="color:#00AAFF">Android-x86</a><a href="https://s3.ax1x.com/2021/02/05/yJGa9A.png" target="_blank"><img src="https://s3.ax1x.com/2021/02/05/yJGa9A.png" /></a></p>
 </li>
 <li>
 <p>下载 Grub 引导文件，解压至任意分区根目录。<a href="https://pan.baidu.com/s/1dD-NUk0-qu9bzdEUJIrwkw" target="_blank" style="color:#00AAFF">提取码：ax86</a></p>
