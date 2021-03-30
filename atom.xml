@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://www.sailstars.one</id>
     <title>SailStars</title>
-    <updated>2021-03-30T03:00:46.536Z</updated>
+    <updated>2021-03-30T15:26:24.192Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://www.sailstars.one"/>
     <link rel="self" href="https://www.sailstars.one/atom.xml"/>
@@ -10,6 +10,16 @@
     <logo>https://www.sailstars.one/images/avatar.png</logo>
     <icon>https://www.sailstars.one/favicon.ico</icon>
     <rights>All rights reserved 2021, SailStars</rights>
+    <entry>
+        <title type="html"><![CDATA[拆下来的第一个x86 CPU]]></title>
+        <id>https://www.sailstars.one/post/F76R6GkXV/</id>
+        <link href="https://www.sailstars.one/post/F76R6GkXV/">
+        </link>
+        <updated>2021-03-30T15:22:57.000Z</updated>
+        <content type="html"><![CDATA[<p>Intel Core M-5Y10c<br>
+<a href="https://z3.ax1x.com/2021/03/30/cFRzsf.jpg" target="blank"><img src="https://z3.ax1x.com/2021/03/30/cFRzsf.jpg" /></a></p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[终于用上了黑苹果]]></title>
         <id>https://www.sailstars.one/post/u7Hdf4GgR/</id>
@@ -56,7 +66,7 @@ EFI下载&nbsp;&nbsp;<a href="https://pan.baidu.com/s/1utQ8bJwCEs7az28qtPKgNA" t
 <li>Mini-PCIE 网卡太大装不进去，可以使用<a href="https://item.taobao.com/item.htm?id=625659559354" target="_blank" style="color:#00AAFF">延长线</a>；<br>
 <a href="https://z3.ax1x.com/2021/03/29/cCqn00.jpg" target="blank"><img src="https://z3.ax1x.com/2021/03/29/cCqn00.jpg" /></a></li>
 <li>购买软路由时建议直接购买预装免驱无线网卡的版本；</li>
-<li>还是要加风扇散热；</li>
+<li>还是要加风扇散热，如果在床头嫌声音大，可使用手机端 SSH 客户端执行 poweroff 来关机；（iOS 可以使用 ServerCat/SSH Shortcuts）</li>
 <li>不要买 QCA9887，无法正常驱动。</li>
 </ol>
 ]]></content>
@@ -288,22 +298,6 @@ enable_nativebridge<br>
         <content type="html"><![CDATA[<p>&quot;就是允许你用刀子搅动我的心&quot;</p>
 <img src="https://s3.ax1x.com/2021/02/01/yeHsfK.jpg" />
 <div class="sig">by Stars</div>
-<!-- more -->
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[在这里继续]]></title>
-        <id>https://www.sailstars.one/post/cRNCdW-L1/</id>
-        <link href="https://www.sailstars.one/post/cRNCdW-L1/">
-        </link>
-        <updated>2021-02-01T12:42:46.000Z</updated>
-        <summary type="html"><![CDATA[<p>已迁移至更为稳定的GitHub.<br>
-心境依旧，心意不变.</p>
-<img src="https://s3.ax1x.com/2021/01/31/yVQ49P.jpg" width="100%" />
-]]></summary>
-        <content type="html"><![CDATA[<p>已迁移至更为稳定的GitHub.<br>
-心境依旧，心意不变.</p>
-<img src="https://s3.ax1x.com/2021/01/31/yVQ49P.jpg" width="100%" />
 <!-- more -->
 ]]></content>
     </entry>
