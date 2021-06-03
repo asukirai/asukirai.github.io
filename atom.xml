@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://www.sailstars.one</id>
     <title>SailStars</title>
-    <updated>2021-06-03T13:06:19.076Z</updated>
+    <updated>2021-06-03T13:10:39.340Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://www.sailstars.one"/>
     <link rel="self" href="https://www.sailstars.one/atom.xml"/>
@@ -16,9 +16,9 @@
         <link href="https://www.sailstars.one/post/vMyP3qGvQ/">
         </link>
         <updated>2021-06-03T12:32:22.000Z</updated>
-        <content type="html"><![CDATA[<p style="color:#ccc;font-size:12px">    从iPhone 5、iPhone SE、iPhone 6s、iPad Pro 10.5英寸、iPad Pro 11英寸 2018款 到iPhone 11，我也算用过几个苹果的设备。作为一个用了11个月的iPhone 11用户，我前两天刚刚卖掉了还剩一个月保修的11换回了抽屉里吃灰的6s。为什么赶早不赶晚？618就要到了，再不卖就又得掉价了！</p>
+        <content type="html"><![CDATA[<p style="color:#ccc;font-size:13px">    从iPhone 5、iPhone SE、iPhone 6s、iPad Pro 10.5英寸、iPad Pro 11英寸 2018款 到iPhone 11，我也算用过几个苹果的设备。作为一个用了11个月的iPhone 11用户，我前两天刚刚卖掉了还剩一个月保修的11换回了抽屉里吃灰的6s。为什么赶早不赶晚？618就要到了，再不卖就又得掉价了！</p>
 <a href="https://z3.ax1x.com/2021/06/03/28SpV0.jpg" target="_blank"><img src="https://z3.ax1x.com/2021/06/03/28SpV0.jpg" /></a>
-<p style="text-align:center;color:#ccc;font-size:12px">(卖得太匆忙以至于都没留下最后一张完整的照片)</p>
+<p style="text-align:center;color:#ccc;font-size:13px">(卖得太匆忙以至于都没留下最后一张完整的照片)</p>
 买它就一个理由：LCD屏幕。之前三星的AMOLED浓艳的色彩和烧屏问题让我对OLED一生黑。
 <p>它的优点也是任意一代iPhone的优点：性能强大，流畅、省心。</p>
 <p>卖掉它的直接原因：</p>
@@ -45,7 +45,7 @@ iPhone本来就信号差，这个英特尔的基带更是过分，经常信号�
         <link href="https://www.sailstars.one/post/N4xfZMkfd/">
         </link>
         <updated>2021-06-03T11:04:17.000Z</updated>
-        <content type="html"><![CDATA[<div style="color:#ccc">第一台相机购买了这款，买完了才发现富士XS10更香。但是转念一想我有适马三剑客可以选，好像也不亏。暂时也没有视频需求，或许搞一个A6000才是最好的选择？😅</div>
+        <content type="html"><![CDATA[<div style="color:#ccc; font-size:13px">第一台相机购买了这款，买完了才发现富士XS10更香。但是转念一想我有适马三剑客可以选，好像也不亏。暂时也没有视频需求，或许搞一个A6000才是最好的选择？😅</div>
 &nbsp;
 <div style="background:linear-gradient(to left,#FFFFFF,#AAAAAA,#FFFFFF);height:1px;"></div>
 <p>可能跟网上评测的内容一样，至少我在使用过程中体验到以下不足：</p>
@@ -112,13 +112,13 @@ APS-C画幅即使拥有了f1.4、f1.8的镜头，没有防抖的夜拍就是灾�
 <td>CPU</td><td>Intel Core i7-8700</td>
 </tr>
 <tr>
-<td>显卡</td><td>UHD 630</td>
+<td>显卡</td><td>Intel UHD 630</td>
 </tr>
 <tr>
 <td>网卡</td><td>BCM94360CD</td>
 </tr>
 <tr>
-<td>显示器</td><td>HKC GF70 144Hz</td>
+<td>显示器</td><td>HKC GF70 1080p 144Hz</td>
 </tr>
 </table>
 EFI下载&nbsp;&nbsp;<a href="https://pan.baidu.com/s/1utQ8bJwCEs7az28qtPKgNA" target="_blank" style="color:#00AAFF">提取码：pro4</a>
