@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://www.sailstars.one</id>
     <title>SailStars</title>
-    <updated>2021-06-03T13:24:23.086Z</updated>
+    <updated>2021-06-03T13:28:20.384Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://www.sailstars.one"/>
     <link rel="self" href="https://www.sailstars.one/atom.xml"/>
@@ -228,94 +228,18 @@ EFI下载&nbsp;&nbsp;<a href="https://pan.baidu.com/s/1utQ8bJwCEs7az28qtPKgNA" t
 ]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[部署 Android-x86 到硬盘]]></title>
-        <id>https://www.sailstars.one/post/jlek0o6tf/</id>
-        <link href="https://www.sailstars.one/post/jlek0o6tf/">
+        <title type="html"><![CDATA[关于中国的互联网]]></title>
+        <id>https://www.sailstars.one/post/internet/</id>
+        <link href="https://www.sailstars.one/post/internet/">
         </link>
-        <updated>2021-02-07T03:13:25.000Z</updated>
-        <content type="html"><![CDATA[<p>默认的 Android-x86 安装程序在安装到硬盘时会生成一个 .img 磁盘镜像文件，在这个虚拟的磁盘上进行读写效率低，而且系统分区（system.sfs）也是被虚拟加载因而即使获取 root 权限也不能修改 system 分区中的系统文件。本文介绍我自己研究的方法，可以将 system、data 分区直接部署至硬盘的 ext4 分区，这样可以提高读写效率，并可以直接修改系统文件。</p>
-<p style="color:#AAA">我的设备均为 UEFI 引导模式，重装系统太麻烦，就不讨论 Legacy 启动了。思路类似，只需要想办法启动 grub 即可。</p>
-<p>#<b>准备工作</b></p>
-<ol>
-<li>
-<p>一个大于 4GB 的空U盘作为启动盘，装有 WindowsPE 并且支持 UEFI 启动。<a href="http://www.ushendu.com/" target="_blank" style="color:#00AAFF">深度启动盘(下载UEFI版)</a> <a href="https://z3.ax1x.com/2021/02/05/yJGek4.png" target="_blank"><img src="https://z3.ax1x.com/2021/02/05/yJGek4.png" /></a></p>
-</li>
-<li>
-<p>下载 Ubuntu 任意版本 iso 镜像，并将其解压至U盘数据分区根目录。<a href="https://mirrors.tuna.tsinghua.edu.cn/ubuntu-cdimage/ubuntu/releases/" target="_blank" style="color:#00AAFF">Ubuntu镜像下载</a><a href="https://z3.ax1x.com/2021/02/05/yJGttH.png" target="_blank"><img src="https://z3.ax1x.com/2021/02/05/yJGttH.png" /></a></p>
-</li>
-<li>
-<p>下载 Android-x86 的 iso 镜像(目前只有7.1及以下系统能在我的各类设备上正常启动，原因未知)，并将 initrd.img、kernel、ramdisk.img、system.sfs(或 system.img) 解压至任意分区根目录(以下简称<b>镜像分区</b>)，并<b>记住这个分区的大小</b>(我这里解压到了一个 270GB 的分区)。<a href="http://www.phoenixos.com/download_x86" target="_blank" style="color:#00AAFF">凤凰系统</a> / <a href="http://www.x86android.com/category-2.html" target="_blank" style="color:#00AAFF">Android-x86</a><a href="https://z3.ax1x.com/2021/02/05/yJGa9A.png" target="_blank"><img src="https://z3.ax1x.com/2021/02/05/yJGa9A.png" /></a></p>
-</li>
-<li>
-<p>下载 Grub 引导文件，解压至任意分区根目录。<a href="https://pan.baidu.com/s/1dD-NUk0-qu9bzdEUJIrwkw" target="_blank" style="color:#00AAFF">提取码：ax86</a></p>
-</li>
-<li>
-<p>下载 DiskGenius。<a href="http://www.pc6.com/softview/SoftView_22214.html" target="_blank" style="color:#00AAFF">链接</a></p>
-</li>
-</ol>
-<p>#<b>正式开始</b></p>
-<ol>
-<li>
-<p>在 Windows 中打开 DiskGenius，根据需要为 Android-x86 在非C盘的分区上拆分出合适大小的系统分区，我这里设定了 10GB。右键单击欲拆分的分区，选择<b style="color:#CC585A">调整分区大小</b>，在<b style="color:#CC585A">分区后部的空间</b>后面输入 10GB ，<kbd>回车</kbd>，点击 <b style="color:#CC585A">开始</b>，等待完成。若报错，以<strong>管理员模式</strong>运行命令提示符，运行<pre><code>chkdsk X: /f</code></pre>其中 X 为需要拆分的盘符。运行完毕后重启，再执行 <b>调整分区大小</b>。<a href="https://z3.ax1x.com/2021/02/05/yJt6AO.png" target="_blank"><img src="https://z3.ax1x.com/2021/02/05/yJt6AO.png"  /></a><a href="https://z3.ax1x.com/2021/02/05/yJtcND.png" target="_blank"><img src="https://z3.ax1x.com/2021/02/05/yJtcND.png" /></a></p>
-</li>
-<li>
-<p>右键单击拆分出的分区，选择<b style="color:#CC585A">建立新分区</b>，选择<b style="color:#CC585A">Ext4</b>，确定，左上角<b style="color:#CC585A">保存更改</b>，是。此时用于存放安卓系统的 ext4 分区就建好了(以下简称 ext4 分区)。<a href="https://z3.ax1x.com/2021/02/05/yJtrB6.png" target="_blank"><img src="https://z3.ax1x.com/2021/02/05/yJtrB6.png" /></a><a href="https://z3.ax1x.com/2021/02/05/yJtsHK.png" target="_blank"><img src="https://z3.ax1x.com/2021/02/05/yJtsHK.png" /></a></p>
-</li>
-<li>
-<p>重新启动计算机，从U盘启动 Ubuntu (使用深度 UEFI 启动盘时数据分区一般为U盘第1个分区)，选择 <b style="color:#CC585A">Try Ubuntu</b>，从U盘运行 Ubuntu。<img src="https://z3.ax1x.com/2021/02/07/ytB8MD.jpg" /></p>
-</li>
-<li>
-<p>进入 Ubuntu 后，在左侧任务栏上打开 <b>Files</b>，在弹出的文件管理器中选择 <b>Other Locations</b> ，根据<b>相近的分区大小</b>找到镜像分区(图中为/dev/sda1)，和 ext4 分区(图中为/dev/sda2)。分别打开一下 镜像分区 和 ext4 分区使其挂载。进入<b>镜像分区</b>，右键单击空白处，选择 <b>Open in Terminal</b>。大概记一下<code>/media/ubuntu/</code>后面的一串字符，并输入以下命令，<kbd>回车</kbd>执行：<pre class="hl" data-lang="SHELL"><code>mkdir ~/1<br>
-mkdir ~/2<br>
-sudo mount -o loop -t squashfs system.sfs ~/1<br>
-sudo mount -o loop ~/1/system.img ~/2<br>
-</code></pre>执行完毕后不要关闭终端。<a href="https://z3.ax1x.com/2021/02/07/ytB1xO.jpg" target="_blank"><img src="https://z3.ax1x.com/2021/02/07/ytB1xO.jpg" /></a><a href="https://z3.ax1x.com/2021/02/07/ytWJpj.jpg" target="_blank" ><img src="https://z3.ax1x.com/2021/02/07/ytWJpj.jpg" /></a><a href="https://z3.ax1x.com/2021/02/07/ytBMPx.jpg" target="_blank"><img src="https://z3.ax1x.com/2021/02/07/ytBMPx.jpg" /></a>若镜像解压后为 <b>system.img</b>，则执行：<pre class="hl" data-lang="SHELL"><code>mkdir ~/2<br>
-sudo mount -o loop system.img ~/2<br>
-</code></pre></p>
-</li>
-<li>
-<p>在上一步打开的终端管理器中输入以下命令，回车执行：   <pre class="hl" data-lang="SHELL"><code>sudo nautilus</code></pre>在弹出的新的、以 root 用户启动的文件管理器中，在左侧栏找到前面记的、<b>ext4分区</b> 所对应字符的分区，单击进入，右键单击空白处，选择 <b style="color:#CC585A">New Folder</b>，新建 <b style="color:#CC585A">data</b> 和 <b style="color:#CC585A">system</b> 两个文件夹。后退，进入 <b>镜像分区</b> 对应字符的分区，选中 <b style="color:#CC585A">ramdisk.img</b>、<b style="color:#CC585A">kernel</b>、<b style="color:#CC585A">initrd.img</b>，右键复制，再返回 <b>ext4分区</b>，右键粘贴。<a href="https://z3.ax1x.com/2021/02/07/yt6oVg.jpg" target="_blank"><img src="https://z3.ax1x.com/2021/02/07/yt6oVg.jpg" /></a></p>
-</li>
-<li>
-<p>完成后关闭这个文件管理器，此时返回的是打开这个文件管理器的终端，按 <kbd>Ctrl</kbd>+<kbd>C</kbd> 结束未结束的进程。再通过文件管理器进入<b>ext4分区</b>后，右键单击空白处，选择 <b>Open in Terminal</b>,再输入以下命令，<kbd>回车</kbd>执行：<pre class="hl" data-lang="SHELL"><code>sudo cp -r ~/2/* ./system</code></pre>待出现新的一行时，系统文件已被复制进 ext4 分区中的 system 目录。<a href="https://z3.ax1x.com/2021/02/07/ytcmZD.jpg" target="_blank"><img src="https://z3.ax1x.com/2021/02/07/ytcmZD.jpg" /></a></p>
-</li>
-<li>
-<p>重启进入 U盘的 <b style="color:#CC585A">UEFI启动盘</b>(使用深度 UEFI 启动盘时一般为U盘第4个分区)，将 grub.zip 解压后的 <b style="color:#CC585A">EFI</b> 和 <b style="color:#CC585A">boot</b> 两个文件夹复制至总容量 96MB 左右的 EFI 启动分区根目录，并记住这个磁盘的盘符。<a href="https://z3.ax1x.com/2021/02/07/ytc8QP.jpg" target="_blank"><img src="https://z3.ax1x.com/2021/02/07/ytc8QP.jpg"/></a></p>
-</li>
-<li>
-<p>在 Windows PE 中使用 BOOTICE 添加 <b style="color:#CC585A">启动分区/EFI/boot/grubx64.efi</b> 启动项，设置名称 Android，保存(这个软件有时点完添加后没反应，需要在左侧左键切换几个启动项后再点添加才会提示成功)。<a href="https://z3.ax1x.com/2021/02/07/ytchWR.jpg" target="_blank"><img src="https://z3.ax1x.com/2021/02/07/ytchWR.jpg"  /></a><a href="https://z3.ax1x.com/2021/02/07/ytcIQx.jpg" target="_blank"><img src="https://z3.ax1x.com/2021/02/07/ytcIQx.jpg" /></a><a href="https://z3.ax1x.com/2021/02/07/ytc5S1.jpg" target="_blank"><img src="https://z3.ax1x.com/2021/02/07/ytc5S1.jpg"  /></a></p>
-</li>
-<li>
-<p>重启，开机项选择 Android，这时如果不是硬件兼容性问题，应该可以启动了，并且可以在第三方文件管理器已获取root权限的情况下直接修改系统文件了。<br>
-<img src="https://z3.ax1x.com/2021/02/07/ytgt6x.jpg" /><img src="https://z3.ax1x.com/2021/02/07/ytgY11.jpg" /></p>
-</li>
-<li>
-<p>如果你已经安装了 Ubuntu 等基于 Linux 的系统，我相信你会直接向其引导文件中添加 Android-x86 启动项。或者可以使用这个 grub 引导 Windows。</p>
-</li>
-</ol>
-<p>#<b>安装 ARM 兼容库</b><br>
-凤凰系统已经预装了ARM兼容运行库，但原生 Android-x86没有。且系统自带安装脚本中的下载链接已失效，需要于本地安装。</p>
-<ol>
-<li>下载兼容库及文件管理器，并解压于U盘中。<a href="https://pan.baidu.com/s/1t1mv-ePFIRhfD2Q6R1QhZw" target="_blank" style="color:#00AAFF">提取码：houd</a></li>
-<li>启动 Android-x86，通过U盘安装 RE管理器，打开 RE管理器，并授予超级用户权限。</li>
-<li>使用RE管理器新建文件夹：<code>/data/arm</code>，并将U盘中的 <b style="color:#CC585A">houdini7_z.sfs houdini7_y.sfs houdini7_z.sfs</b> 三个文件复制进这个文件夹（U盘在<code>/storage</code>里找）。</li>
-<li>打开终端管理器，输入以下命令，按<kbd>回车</kbd>执行，授予超级用户权限：<pre class="hl" data-lang="SHELL"><code>su<br>
-enable_nativebridge<br>
-</code></pre></li>
-<li>进入<b style="color:#CC585A">设置-应用兼容性</b>，打开<b style="color:#CC585A">兼容模式</b>。</li>
-<li>此时即可以安装例如百度输入法之类的一部分ARM应用了。</li>
-</ol>
-<p>#<b>酷比魔方i7标准版安装Android x86后WiFi打不开</b></p>
-<ol>
-<li>RE管理器授予超级用户权限，删除 <code>/system/lib/module/****/kernel/drivers/net/wireless/realtek/rtl8xxxu</code></li>
-<li>重启设备。</li>
-</ol>
-<p>#<b>酷比魔方i7标准版重力感应不起作用</b><br>
-凤凰系统重力感应没有问题，但旋转屏幕后任务栏无反应，暂不知原因。修复原生 Android-x86 重力感应方法：</p>
-<ol>
-<li>RE管理器授予超级用户权限，找到<code>/system/etc/init.sh</code>，长按，选择<b style="color:#CC585A">以文本方式编辑</b>，找到<pre><code>i7-WN</code></pre>改为<pre><code>i7-CM</code></pre>然后将紧接着下一行的<pre class="hl"><code>set_property ro.iio.accel.quirks no-trig</code></pre>改为<pre class="hl"><code>set_property ro.iio.accel.opt_scale -1</code></pre></li>
-<li>重启生效。</li>
-</ol>
+        <updated>2021-02-08T17:37:22.000Z</updated>
+        <content type="html"><![CDATA[<p style="font-size:0.8em;color:#AAA">原文：<a href="https://github.com/kelthuzadx/hosts/wiki/关于中国的互联网" target="_blank" style="color:#AAA">https://github.com/kelthuzadx/hosts/wiki/关于中国的互联网</a>，有改动</p>
+<p>    网络审查在各个国家都普遍存在着，它并不仅存在于中国。在全球的局势对中国都不利的当下，当局会过滤掉影响、危害到中国长远发展的信息，此时国家安全的意义更加重大。</p>
+<p>    全球互联网上存在着大量不现实的、不客观的，甚至自相矛盾的抹黑政府言论，它们背后一般有西方政府或非政府组织资金支持。这些媒体包括但不限于一些港媒、境外网站。</p>
+<p>    我们希望您能在遇到此类言论和见解时，不要不加思考地、情绪一度被煽动而不能克制地、盲目地相信这些片面或者歪曲事实的东西，而是要事实求是地思考，要摆脱情绪绑架的怪诞思维去理解。</p>
+<p>    我们需要了解到，中国的发展总基调是“稳中求进”，中国社会的最核心问题就是稳定。失去稳定的中国将会是一盘散沙，面临分裂和肢解的危险。我们希望您了解当今中国发展的根本保证是什么，发展的过程中哪部分是主旋律，哪些是噪音；哪些是进取的，哪些是会开历史倒车的。我们需要维新，而不是革命。</p>
+<p>    我们应该清醒和全面地认识问题，偏信西方媒体的言论、缺乏对国家的信任是不可取的。您的数据安全和隐私对您尤为重要。若这些信息不应当被西方掌握时，它对国家和民族的命运更为重要。出于此原因，当局可能会限制您的行为。</p>
+<p>    所以，我们希望您在网上冲浪时，三思而后行。</p>
 ]]></content>
     </entry>
 </feed>
