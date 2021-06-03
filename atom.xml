@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://www.sailstars.one</id>
     <title>SailStars</title>
-    <updated>2021-06-03T12:29:57.401Z</updated>
+    <updated>2021-06-03T13:05:45.728Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://www.sailstars.one"/>
     <link rel="self" href="https://www.sailstars.one/atom.xml"/>
@@ -10,6 +10,35 @@
     <logo>https://www.sailstars.one/images/avatar.png</logo>
     <icon>https://www.sailstars.one/favicon.ico</icon>
     <rights>All rights reserved 2021, SailStars</rights>
+    <entry>
+        <title type="html"><![CDATA[iPhone 11使用体验]]></title>
+        <id>https://www.sailstars.one/post/vMyP3qGvQ/</id>
+        <link href="https://www.sailstars.one/post/vMyP3qGvQ/">
+        </link>
+        <updated>2021-06-03T12:32:22.000Z</updated>
+        <content type="html"><![CDATA[<p style="color:#ccc;font-size:12px">    从iPhone 5、iPhone SE、iPhone 6s、iPad Pro 10.5英寸、iPad Pro 11英寸 2018款 到iPhone 11，我也算用过几个苹果的设备。作为一个用了11个月的iPhone 11用户，我前两天刚刚卖掉了还剩一个月保修的11换回了抽屉里吃灰的6s。为什么赶早不赶晚？618就要到了，再不卖就又得掉价了！</p>
+<a href="https://z3.ax1x.com/2021/06/03/28SpV0.jpg" target="_blank"><img src="https://z3.ax1x.com/2021/06/03/28SpV0.jpg" /></a>
+<p style="text-align:center;color:#ccc;font-size:12px">(卖得太匆忙以至于都没留下最后一张完整的照片)</p>
+买它就一个理由：LCD屏幕。之前三星的AMOLED浓艳的色彩和烧屏问题让我对OLED一生黑。
+<p>它的优点也是任意一代iPhone的优点：性能强大，流畅、省心。</p>
+<p>卖掉它的直接原因：</p>
+<ol>
+<li>
+<p><b>信号巨差</b><br>
+iPhone本来就信号差，这个英特尔的基带更是过分，经常信号一格，或者满格信号打不开网页，尤其是在双卡的时候。在高铁上就是个离线播放器，能发出去个微信就谢天谢地了。更离谱的是，双卡双待的手机，一个手机通话时另一个居然会没信号？？（听说iPhone 12也好不到哪去还费电心里顿时平衡了许多😂）</p>
+</li>
+<li>
+<p><b>Face ID 不方便</b><br>
+工作的原因常年戴口罩，这个Face ID就成了个摆设。密码从6位改到4位还是天天锁自己，干脆关了密码又怕手机丢了。(什么？AppleWatch可以协助免面容解锁？😂)</p>
+</li>
+<li>
+<p><b>太贵了</b><br>
+还是怕摔一下结果Face ID坏掉，那基本上就卖不出去了，用个手机还得小心翼翼的。但是其实也有好处，用了一年成色还很新，好卖出去。</p>
+</li>
+</ol>
+<p>游戏有iPad Pro，自从买了相机，手机彻底沦落到扫码+电话+微信的定位了。卖了损失30%，不卖就是损失100% 啊！等到iPhone 6s彻底坏掉的时候，下一个手机肯定买2000以内的了，<b>没必要</b>。</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[SONY A6400 使用体验]]></title>
         <id>https://www.sailstars.one/post/N4xfZMkfd/</id>
@@ -287,40 +316,6 @@ enable_nativebridge<br>
 <li>RE管理器授予超级用户权限，找到<code>/system/etc/init.sh</code>，长按，选择<b style="color:#CC585A">以文本方式编辑</b>，找到<pre><code>i7-WN</code></pre>改为<pre><code>i7-CM</code></pre>然后将紧接着下一行的<pre class="hl"><code>set_property ro.iio.accel.quirks no-trig</code></pre>改为<pre class="hl"><code>set_property ro.iio.accel.opt_scale -1</code></pre></li>
 <li>重启生效。</li>
 </ol>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[iPad Pro 充电+耳机 转接线推荐]]></title>
-        <id>https://www.sailstars.one/post/QZEN7gMjB/</id>
-        <link href="https://www.sailstars.one/post/QZEN7gMjB/">
-        </link>
-        <updated>2021-02-06T01:11:05.000Z</updated>
-        <content type="html"><![CDATA[<p>iPad Pro 从第三代起移除了耳机插孔，而玩游戏时需要充电+耳机。市面上的二合一转接线有很多款，兼容的却没几个，我这里推荐一种解决方案。</p>
-<img src="https://z3.ax1x.com/2021/02/06/yJ4Rj1.jpg" style="max-width:60%" />
-购买链接：<a href="https://item.jd.com/10020928677626.html" target="_blank" style="color:#00AAFF">派威转接线</a>&nbsp;&nbsp;<a href="https://item.jd.com/10021792873635.html" target="_blank" style="color:#00AAFF">甜橙转接线</a><br/><br/><br/>
-<div style="background:linear-gradient(to left,#FFFFFF,#AAAAAA,#FFFFFF);height:1px;"></div><br/><br/>
-啰嗦几句。<br/><br/>
-我们的目标很简单：
-1. 耳机、麦克风的音量、音质正常。
-2. 能够开启快速充电(充电电压高于5V)。
-<p>但就是这样简单的目标，绝大多数转接线都做不到。</p>
-<p style="color:#BBB">曾经在广告上看到 Satechi 出品的转接线，说是为 iPad Pro 设计，在淘宝找代购花了￥298 入手一个结果发现不兼容，30W(15V2A)的快充倒是能正常使用，但是耳机音质极其渣，麦克风几乎没有声音。插在MacBook上却可以正常使用，一定是 iPad 没有适配驱动。（Satechi官网目前已经悄悄下架了这款，他们也知道是有问题的）</p>
-<img src="https://z3.ax1x.com/2021/02/06/yJ4COx.jpg" style="max-width:40%" />
-<img src="https://z3.ax1x.com/2021/02/06/yJ4Rj1.jpg" style="max-width:60%" />
-如图所示，这款转接线上有两个Type-C插孔、一个3.5mm插孔。一个 Type-C 接 PD 协议的快充充电器，另一个 Type-C 可以接苹果官方的 <a href="https://item.jd.com/100003525311.html" target="_blank" style="color:#00AAFF">USB-C 转 3.5mm 转接线</a>。<br/><br/>
-如果 3.5mm 耳机插上以后声音不对，那你应该搜索一下你的耳机是美标还是国标，然后购买转换线。
-<img src="https://z3.ax1x.com/2021/02/06/yJ4H9H.jpg" style="max-width:500px;width:80%" />
-<img src="https://z3.ax1x.com/2021/02/06/yJ5ED0.jpg" style="max-width:700px" />
-购买链接：
-<a href="https://item.jd.com/2962752.html" target="_blank" style="color:#00AAFF">绿联 国标美标耳机转换线</a>
-<br/><br/>
-转接线的直角插头设计的有点蠢，看起来把转接线贴在设备背面很方便，但是这个插头比正常充电线的插头大一圈，横屏握持时非常硌手。再购买一根 Type-C 延长线，不需要太长，就可以立刻解决问题。
-<img src="https://z3.ax1x.com/2021/02/06/yJ5LiF.jpg" style="max-width:700px" />
-购买链接：
-<a href="https://item.jd.com/10026007747774.html" target="_blank" style="color:#00AAFF">绿联Type-C延长线</a>
-<br/><br/>
-最终组合：
-<a href="https://z3.ax1x.com/2021/02/06/yJI4YD.jpg"><img src="https://z3.ax1x.com/2021/02/06/yJI4YD.jpg" style="max-width:60%" /></a>
 ]]></content>
     </entry>
 </feed>
