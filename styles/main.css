@@ -920,6 +920,7 @@ pre .cl {
 .md_block ol {
   padding-inline-start: 1rem;
 }
+/*
 .round-shape-one {
   width: 20px;
   height: 20px;
@@ -930,6 +931,7 @@ pre .cl {
   -webkit-animation: animationFramesOne 15s infinite linear;
   animation: animationFramesOne 15s infinite linear;
 }
+
 @keyframes animationFramesOne {
   0% {
     transform: translate(0) rotate(0deg);
@@ -950,6 +952,7 @@ pre .cl {
     transform: translate(0) rotate(0deg);
   }
 }
+*/
 #scrollUp {
   background-image: url(../media/images/scroll.png);
   bottom: 20px;

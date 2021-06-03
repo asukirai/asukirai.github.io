@@ -36,7 +36,6 @@
 
 <div style="display:flex">
 <div class="md_block" id="md_block">
-<div class="round-shape-one"></div>
 <p>默认的 Android-x86 安装程序在安装到硬盘时会生成一个 .img 磁盘镜像文件，在这个虚拟的磁盘上进行读写效率低，而且系统分区（system.sfs）也是被虚拟加载因而即使获取 root 权限也不能修改 system 分区中的系统文件。本文介绍我自己研究的方法，可以将 system、data 分区直接部署至硬盘的 ext4 分区，这样可以提高读写效率，并可以直接修改系统文件。</p>
 <p style="color:#AAA">我的设备均为 UEFI 引导模式，重装系统太麻烦，就不讨论 Legacy 启动了。思路类似，只需要想办法启动 grub 即可。</p>
 <p>#<b>准备工作</b></p>
