@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://www.sailstars.one</id>
     <title>SailStars</title>
-    <updated>2021-07-15T14:14:49.288Z</updated>
+    <updated>2021-07-15T14:17:18.631Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://www.sailstars.one"/>
     <link rel="self" href="https://www.sailstars.one/atom.xml"/>
@@ -18,7 +18,7 @@
         <updated>2021-07-15T13:53:28.000Z</updated>
         <content type="html"><![CDATA[<p>果然还是想升级全画幅。对比一下。<br>
 没有完美的机器。</p>
-<table><tr><td></td><td>优点</td><td>缺点</td></tr>
+<table class="diy"><tr><td></td><td>优点</td><td>缺点</td></tr>
 <tr><td>SONY A7 III</td><td>便宜，高感好，副厂镜头多且便宜。</td><td>卡口太小，防抖跟没有一样，镜头口径蚀明显。屏幕分辨率低。视频没有4K60P。8bit 4:2:0。EVF刷新率低。</td></tr>
 <tr><td>SONY A7C</td><td>小巧便携，高感好，副厂镜头多且便宜。</td><td>同上的理由+只有电子前帘快门+快门速度最高只有1/4000s。</td></tr>
 <tr><td>Canon EOS R6</td><td>防抖极其优秀。侧翻屏。4K60P。连拍快。</td><td>会过热。机身、镜头贵。HDMI和内录冲突。视频拍摄设置单一。前照式CMOS。</td></tr>
