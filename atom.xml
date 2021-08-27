@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://www.sailstars.one</id>
     <title>SailStars</title>
-    <updated>2021-07-17T11:24:45.080Z</updated>
+    <updated>2021-08-27T11:56:34.879Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://www.sailstars.one"/>
     <link rel="self" href="https://www.sailstars.one/atom.xml"/>
@@ -11,20 +11,13 @@
     <icon>https://www.sailstars.one/favicon.ico</icon>
     <rights>All rights reserved 2021, SailStars</rights>
     <entry>
-        <title type="html"><![CDATA[热门全画幅对比]]></title>
-        <id>https://www.sailstars.one/post/wELGvKDMA/</id>
-        <link href="https://www.sailstars.one/post/wELGvKDMA/">
+        <title type="html"><![CDATA[等不了A7 IV了！]]></title>
+        <id>https://www.sailstars.one/post/4BKH0fkU-/</id>
+        <link href="https://www.sailstars.one/post/4BKH0fkU-/">
         </link>
-        <updated>2021-07-15T13:53:28.000Z</updated>
-        <content type="html"><![CDATA[<p>果然还是想升级全画幅。对比一下。<br>
-没有完美的机器。</p>
-<table class="diy"><tr><td></td><td>优点</td><td>缺点</td></tr>
-<tr><td>SONY A7 III</td><td>便宜，高感好，副厂镜头多且便宜。</td><td>卡口太小，防抖跟没有一样，屏幕分辨率低。视频没有4K60P。8bit 4:2:0。EVF刷新率低。</td></tr>
-<tr><td>SONY A7C</td><td>小巧便携，高感好，副厂镜头多且便宜。</td><td>同上的理由+只有电子前帘快门+快门速度最高只有1/4000s。</td></tr>
-<tr><td>Canon EOS R6</td><td>防抖极其优秀。侧翻屏。4K60P。连拍快。</td><td>会过热。机身、镜头贵。HDMI和内录冲突。视频拍摄设置单一。前照式CMOS。</td></tr>
-<tr><td>Nikon Z6 II</td><td>防抖还不错，各方面都还可以。有58mm f0.95这个选项（虽然买不起）。4K60P。</td><td>镜头少。HDMI输出有延迟。机内无10bit视频。EVF刷新率低。售后垃圾。</td></tr>
-</table>
-<p>这个价位真的没有完美的机器，感觉 A7 IV 等不到了。抛开视频的因素肯定选 A7 III ；算上视频，可能 Z6 II 更符合我的要求？</p>
+        <updated>2021-08-27T11:52:41.000Z</updated>
+        <content type="html"><![CDATA[<p><a href="https://z3.ax1x.com/2021/08/27/hQbaV0.jpg" target="_blank"><img src="https://z3.ax1x.com/2021/08/27/hQbaV0.jpg"></a><br>
+出掉了6400以后才发现半幅镜头是真的便宜...</p>
 ]]></content>
     </entry>
     <entry>
@@ -78,7 +71,7 @@ APS-C画幅即使拥有了f1.4、f1.8的镜头，没有防抖的夜拍就是灾�
 <li><b>高感噪点感人</b><br>
 祖传的CMOS加上APS-C的原因，ISO开高了以后满屏幕都是噪点。看到有人说他都不用1600以上的ISO拍摄。</li>
 </ol>
-<p>这台机器总体上讲还是可以的，比如对焦快、宽容度高、庞大的副厂镜头群等等，已经拍了一些照片感觉很不错，但问题还是存在的。不可否认的是器材只是一方面，自己菜没得洗，摄影之路还有很多需要学习和成长的地方。但是换全画幅的梦想还是要有的，万一哪天实现了呢？<br>
+<p>这台机器总体上讲还是可以的，比如对焦非常快、机身小巧、庞大的副厂镜头群等等，已经拍了一些照片感觉很不错，但问题还是存在的。不可否认的是器材只是一方面，自己菜没得洗，摄影之路还有很多需要学习和成长的地方。但是换全画幅的梦想还是要有的，万一哪天实现了呢？<br>
 <img src="https://z3.ax1x.com/2021/06/03/23430s.gif" style="heigth:25px; width: 25px" /></p>
 ]]></content>
     </entry>
