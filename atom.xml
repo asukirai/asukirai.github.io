@@ -2,36 +2,14 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://www.sailstars.one</id>
     <title>SailStars</title>
-    <updated>2021-08-27T12:00:21.331Z</updated>
+    <updated>2022-04-12T14:19:33.890Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://www.sailstars.one"/>
     <link rel="self" href="https://www.sailstars.one/atom.xml"/>
     <subtitle>温暖的小窝</subtitle>
     <logo>https://www.sailstars.one/images/avatar.png</logo>
     <icon>https://www.sailstars.one/favicon.ico</icon>
-    <rights>All rights reserved 2021, SailStars</rights>
-    <entry>
-        <title type="html"><![CDATA[20210822]]></title>
-        <id>https://www.sailstars.one/post/hWiopoyH8/</id>
-        <link href="https://www.sailstars.one/post/hWiopoyH8/">
-        </link>
-        <updated>2021-08-27T11:58:06.000Z</updated>
-        <summary type="html"><![CDATA[<p><a href="https://z3.ax1x.com/2021/08/27/hQbLZt.jpg" target="_blank"><img src="https://z3.ax1x.com/2021/08/27/hQbLZt.jpg" /></a></p>
-]]></summary>
-        <content type="html"><![CDATA[<p><a href="https://z3.ax1x.com/2021/08/27/hQbLZt.jpg" target="_blank"><img src="https://z3.ax1x.com/2021/08/27/hQbLZt.jpg" /></a></p>
-<!-- more -->
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[等不了A7 IV了！]]></title>
-        <id>https://www.sailstars.one/post/4BKH0fkU-/</id>
-        <link href="https://www.sailstars.one/post/4BKH0fkU-/">
-        </link>
-        <updated>2021-08-27T11:52:41.000Z</updated>
-        <content type="html"><![CDATA[<p><a href="https://z3.ax1x.com/2021/08/27/hQbaV0.jpg" target="_blank"><img src="https://z3.ax1x.com/2021/08/27/hQbaV0.jpg" /></a><br>
-出掉了6400以后才发现半幅镜头是真的便宜...</p>
-]]></content>
-    </entry>
+    <rights>All rights reserved 2022, SailStars</rights>
     <entry>
         <title type="html"><![CDATA[iPhone 11使用体验]]></title>
         <id>https://www.sailstars.one/post/vMyP3qGvQ/</id>
@@ -200,6 +178,145 @@ EFI下载&nbsp;&nbsp;<a href="https://pan.baidu.com/s/1utQ8bJwCEs7az28qtPKgNA" t
 <center><img src="https://z3.ax1x.com/2021/02/11/y0L42j.png" width="40%" />&nbsp;<img src="https://z3.ax1x.com/2021/02/11/y0L5xs.png" width="40%"  /></center>
 <div class="sig">by Sail</div>
 <!-- more -->
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[双网卡 Wi-Fi 中继（一收一发）]]></title>
+        <id>https://www.sailstars.one/post/L2cMH1XUC/</id>
+        <link href="https://www.sailstars.one/post/L2cMH1XUC/">
+        </link>
+        <updated>2021-02-10T15:14:15.000Z</updated>
+        <content type="html"><![CDATA[<p>    这个标题其实有一点问题，单个网卡的网络传输都是需要同时收发的。我的意思是一个网卡用来连路由，另一个用来开热点。本文不讨论效率问题，仅为利用闲置设备考虑。</p>
+<p>    效果：</p>
+<p>    <a href="https://item.jd.com/773352.html" target="_blank" style="color:#00AAFF">雷达天线 USB 网卡</a> (Realtek RTL8818GU) 连接 2.4GHz 上级路由。</p>
+<p>    <a href="https://item.jd.com/6050357.html" target="_blank" style="color:#00AAFF">水星UD13H</a> (Mediatek MT7612U) 建立 5.8GHz 热点。</p>
+<p>    下载稳定。延迟稳定。<img src="https://s1.ax1x.com/2020/04/02/GtsqfK.png" /><img src="https://s3.ax1x.com/2021/02/11/y0TuqO.jpg" /></p>
+<div style="background:linear-gradient(to left,#FFFFFF,#AAAAAA,#FFFFFF);height:1px;"></div>
+<p>    在那个还在蹭邻居Wi-Fi😅的年代，怎样保证稳定性及覆盖一直是我头疼的问题。邻居的网在客厅信号最强，但用笔记本内置网卡下载时，速度仍时快时慢。尝试过使用腾(垃)达(圾)路由器的 WISP 功能、小米无线 Wi-Fi 中继器，结果这两个兄弟连邻居的路由器都连不上，倒是手机、电脑可以勉强用。</p>
+<p>    为了愉快的蹭网，我购买了上述两个无线网卡，经测试在电脑上使用效果都不错，雷达天线的效果更好，但是怎样才能让手机、平板等其他设备也用上呢？</p>
+<p>    你可能会说：开热点啊。</p>
+<p>    没错，开热点很简单，但是开一个符合我要求的热点却很难：2.4GHz 的网卡连路由，5.8GHz 的网卡开 5GHz 的热点。</p>
+<p>    只有经历过这个探索，你才会知道在 Windows 上建热点有多恶心。</p>
+<ol>
+<li>Windows 10 设置中建立热点的地方有时候没有 5GHz 的选项，即使有也不让用，查相关资料说：必须在 <b>已连接到 5GHz Wi-Fi</b> 的情况下才能建 5GHz 的热点。<br>
+<img src="https://s3.ax1x.com/2021/02/08/yaKYDK.jpg" /></li>
+<li>在驱动配置中强制 仅使用 5GHz，使用猎豹免费 Wi-Fi，它会分不清楚哪个是内置、哪个是外置网卡，尤其是我插了两个 USB 网卡并且拔掉内置 Mini-PCIE 网卡的时候，会断线重连，开热点的设备自动换回 2.4GHz 网卡。</li>
+<li>使用网传的 netsh wlan start hostednetwork 命令只有在 Mini-PCIE 网卡支持的时候才可以用，USB 网卡不要想，我从来没有成功过。<br>
+<img src="https://s3.ax1x.com/2021/02/11/y0TzYd.jpg" /><br>
+    ......<br>
+  <br>
+    同时，我发现用很多 USB 网卡玩游戏、下载东西的时候，会间歇性突然掉卡找不到硬件，然后再重新发现硬件，再重复。MT7612U 也不例外。就在凑合过日子的时候，对 Mediatek 自带无线设定工具的研究给了我新发现。它居然可以指定信道开启热点😱。<br>
+  </li>
+</ol>
+<p>#<b>具体方法：</b></p>
+<ol>
+<li>安装 Mediatek <a href="https://www.mediatek.cn/products/broadbandWifi/mt7612u" target="_blank" style="color:#00AAFF">官网驱动</a>，安装时选择 <b>安装驱动程序与 Mediatek 无线网络设定程序</b>。<br>
+<img src="https://s3.ax1x.com/2021/02/11/y0oi9I.png" /></li>
+<li>在设备管器中更新网卡驱动，选择 802.11ac Wireless LAN Card。<br>
+<img src="https://s3.ax1x.com/2021/02/11/y0oK4s.png" /><img src="https://s3.ax1x.com/2021/02/11/y0ouNj.png" /><img src="https://s3.ax1x.com/2021/02/11/y0onEQ.png" /><img src="https://s3.ax1x.com/2021/02/11/y0oQCn.png" /></li>
+<li>安装完成后，任务栏右下角会出现新的信号图标(可能被隐藏起来)，左键双击打开无线网络设定程序。<img src="https://s3.ax1x.com/2021/02/11/y0oYbF.png" /></li>
+<li>右键单击任务栏上的信号图标，选择 <b>切换至 AP 模式</b>。<br>
+<img src="https://s3.ax1x.com/2021/02/11/y0oJDU.png" /></li>
+<li>点击如图所示的 <b>一般设定</b> 图标，在 ICS WAN 一栏中选择连接邻居路由的大功率网卡，下一步。<img src="https://s3.ax1x.com/2021/02/11/y0osKK.png" /><img src="https://s3.ax1x.com/2021/02/11/y0o5xP.png" /></li>
+<li>在<b>频道</b>中向下翻，选择 <b style="color:#CC585A">149-165</b> 的任意 5GHz 信道，下一步。验证方法选择 WPA2-PSK 。<br>
+<img src="https://s3.ax1x.com/2021/02/11/y0oTr8.png" /></li>
+<li>此时已经建好了热点，显示 IP 为 192.168.123.1 ，但是现在其他设备连接上热点后还不能访问网络。需要继续下一步。<br>
+<img src="https://s3.ax1x.com/2021/02/11/y0ov2q.png" /></li>
+<li>在 <b>所有设置-网络和Internet-状态-更改适配器选项</b> 中找到连接邻居路由的大功率无线网卡，右键选择属性，切换到 <b>共享</b> 选项卡，把 <b>允许其他网络用户通过此计算机的 Internet 连接来连接</b> 前面的勾<b style="color:#CC585A">去掉</b>，然后确定退出。再次右键选择属性，把这个勾再<b style="color:#CC585A">勾上</b>，点确定退出。回到无线网络设定程序，IP 已经变成了 <b style="color:#CC585A">192.168.137.1</b>，此时连接热点的设备才可以正常上网。<br>
+<img src="https://s3.ax1x.com/2021/02/11/y0TSMV.png" /><img src="https://s3.ax1x.com/2021/02/11/y0TprT.png" /><img src="https://s3.ax1x.com/2021/02/11/y0Tia4.png" /></li>
+<li>重启电脑后，需要重新执行<b style="color:#CC585A">第8步</b>这一过程，直至 IP 显示为 192.168.137.1 时，连接到热点的设备才可以正常上网。具体原因呢跟 Windows 10 ICS 服务有关，已测试目前无法用脚本代替。倒是可以新建一个访问 <b>适配器选项</b> 的快捷方式😅：<pre class="hl"><code>C:\Windows\System32\ncpa.cpl</code></pre></li>
+</ol>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[部署 Android-x86 到硬盘]]></title>
+        <id>https://www.sailstars.one/post/jlek0o6tf/</id>
+        <link href="https://www.sailstars.one/post/jlek0o6tf/">
+        </link>
+        <updated>2021-02-07T03:13:25.000Z</updated>
+        <content type="html"><![CDATA[<p>默认的 Android-x86 安装程序在安装到硬盘时会生成一个 .img 磁盘镜像文件，在这个虚拟的磁盘上进行读写效率低，而且系统分区（system.sfs）也是被虚拟加载因而即使获取 root 权限也不能修改 system 分区中的系统文件。本文介绍我自己研究的方法，可以将 system、data 分区直接部署至硬盘的 ext4 分区，这样可以提高读写效率，并可以直接修改系统文件。</p>
+<p style="color:#AAA">我的设备均为 UEFI 引导模式，重装系统太麻烦，就不讨论 Legacy 启动了。思路类似，只需要想办法启动 grub 即可。</p>
+<p>#<b>准备工作</b></p>
+<ol>
+<li>
+<p>一个大于 4GB 的空U盘作为启动盘，装有 WindowsPE 并且支持 UEFI 启动。<a href="http://www.ushendu.com/" target="_blank" style="color:#00AAFF">深度启动盘(下载UEFI版)</a> <a href="https://z3.ax1x.com/2021/02/05/yJGek4.png" target="_blank"><img src="https://z3.ax1x.com/2021/02/05/yJGek4.png" /></a></p>
+</li>
+<li>
+<p>下载 Ubuntu 任意版本 iso 镜像，并将其解压至U盘数据分区根目录。<a href="https://mirrors.tuna.tsinghua.edu.cn/ubuntu-cdimage/ubuntu/releases/" target="_blank" style="color:#00AAFF">Ubuntu镜像下载</a><a href="https://z3.ax1x.com/2021/02/05/yJGttH.png" target="_blank"><img src="https://z3.ax1x.com/2021/02/05/yJGttH.png" /></a></p>
+</li>
+<li>
+<p>下载 Android-x86 的 iso 镜像(目前只有7.1及以下系统能在我的各类设备上正常启动，原因未知)，并将 initrd.img、kernel、ramdisk.img、system.sfs(或 system.img) 解压至任意分区根目录(以下简称<b>镜像分区</b>)，并<b>记住这个分区的大小</b>(我这里解压到了一个 270GB 的分区)。<a href="http://www.phoenixos.com/download_x86" target="_blank" style="color:#00AAFF">凤凰系统</a> / <a href="http://www.x86android.com/category-2.html" target="_blank" style="color:#00AAFF">Android-x86</a><a href="https://z3.ax1x.com/2021/02/05/yJGa9A.png" target="_blank"><img src="https://z3.ax1x.com/2021/02/05/yJGa9A.png" /></a></p>
+</li>
+<li>
+<p>下载 Grub 引导文件，解压至任意分区根目录。<a href="https://pan.baidu.com/s/1dD-NUk0-qu9bzdEUJIrwkw" target="_blank" style="color:#00AAFF">提取码：ax86</a></p>
+</li>
+<li>
+<p>下载 DiskGenius。<a href="http://www.pc6.com/softview/SoftView_22214.html" target="_blank" style="color:#00AAFF">链接</a></p>
+</li>
+</ol>
+<p>#<b>正式开始</b></p>
+<ol>
+<li>
+<p>在 Windows 中打开 DiskGenius，根据需要为 Android-x86 在非C盘的分区上拆分出合适大小的系统分区，我这里设定了 10GB。右键单击欲拆分的分区，选择<b style="color:#CC585A">调整分区大小</b>，在<b style="color:#CC585A">分区后部的空间</b>后面输入 10GB ，<kbd>回车</kbd>，点击 <b style="color:#CC585A">开始</b>，等待完成。若报错，以<strong>管理员模式</strong>运行命令提示符，运行<pre><code>chkdsk X: /f</code></pre>其中 X 为需要拆分的盘符。运行完毕后重启，再执行 <b>调整分区大小</b>。<a href="https://z3.ax1x.com/2021/02/05/yJt6AO.png" target="_blank"><img src="https://z3.ax1x.com/2021/02/05/yJt6AO.png"  /></a><a href="https://z3.ax1x.com/2021/02/05/yJtcND.png" target="_blank"><img src="https://z3.ax1x.com/2021/02/05/yJtcND.png" /></a></p>
+</li>
+<li>
+<p>右键单击拆分出的分区，选择<b style="color:#CC585A">建立新分区</b>，选择<b style="color:#CC585A">Ext4</b>，确定，左上角<b style="color:#CC585A">保存更改</b>，是。此时用于存放安卓系统的 ext4 分区就建好了(以下简称 ext4 分区)。<a href="https://z3.ax1x.com/2021/02/05/yJtrB6.png" target="_blank"><img src="https://z3.ax1x.com/2021/02/05/yJtrB6.png" /></a><a href="https://z3.ax1x.com/2021/02/05/yJtsHK.png" target="_blank"><img src="https://z3.ax1x.com/2021/02/05/yJtsHK.png" /></a></p>
+</li>
+<li>
+<p>重新启动计算机，从U盘启动 Ubuntu (使用深度 UEFI 启动盘时数据分区一般为U盘第1个分区)，选择 <b style="color:#CC585A">Try Ubuntu</b>，从U盘运行 Ubuntu。<img src="https://z3.ax1x.com/2021/02/07/ytB8MD.jpg" /></p>
+</li>
+<li>
+<p>进入 Ubuntu 后，在左侧任务栏上打开 <b>Files</b>，在弹出的文件管理器中选择 <b>Other Locations</b> ，根据<b>相近的分区大小</b>找到镜像分区(图中为/dev/sda1)，和 ext4 分区(图中为/dev/sda2)。分别打开一下 镜像分区 和 ext4 分区使其挂载。进入<b>镜像分区</b>，右键单击空白处，选择 <b>Open in Terminal</b>。大概记一下<code>/media/ubuntu/</code>后面的一串字符，并输入以下命令，<kbd>回车</kbd>执行：<pre class="hl" data-lang="SHELL"><code>mkdir ~/1<br>
+mkdir ~/2<br>
+sudo mount -o loop -t squashfs system.sfs ~/1<br>
+sudo mount -o loop ~/1/system.img ~/2<br>
+</code></pre>执行完毕后不要关闭终端。<a href="https://z3.ax1x.com/2021/02/07/ytB1xO.jpg" target="_blank"><img src="https://z3.ax1x.com/2021/02/07/ytB1xO.jpg" /></a><a href="https://z3.ax1x.com/2021/02/07/ytWJpj.jpg" target="_blank" ><img src="https://z3.ax1x.com/2021/02/07/ytWJpj.jpg" /></a><a href="https://z3.ax1x.com/2021/02/07/ytBMPx.jpg" target="_blank"><img src="https://z3.ax1x.com/2021/02/07/ytBMPx.jpg" /></a>若镜像解压后为 <b>system.img</b>，则执行：<pre class="hl" data-lang="SHELL"><code>mkdir ~/2<br>
+sudo mount -o loop system.img ~/2<br>
+</code></pre></p>
+</li>
+<li>
+<p>在上一步打开的终端管理器中输入以下命令，回车执行：   <pre class="hl" data-lang="SHELL"><code>sudo nautilus</code></pre>在弹出的新的、以 root 用户启动的文件管理器中，在左侧栏找到前面记的、<b>ext4分区</b> 所对应字符的分区，单击进入，右键单击空白处，选择 <b style="color:#CC585A">New Folder</b>，新建 <b style="color:#CC585A">data</b> 和 <b style="color:#CC585A">system</b> 两个文件夹。后退，进入 <b>镜像分区</b> 对应字符的分区，选中 <b style="color:#CC585A">ramdisk.img</b>、<b style="color:#CC585A">kernel</b>、<b style="color:#CC585A">initrd.img</b>，右键复制，再返回 <b>ext4分区</b>，右键粘贴。<a href="https://z3.ax1x.com/2021/02/07/yt6oVg.jpg" target="_blank"><img src="https://z3.ax1x.com/2021/02/07/yt6oVg.jpg" /></a></p>
+</li>
+<li>
+<p>完成后关闭这个文件管理器，此时返回的是打开这个文件管理器的终端，按 <kbd>Ctrl</kbd>+<kbd>C</kbd> 结束未结束的进程。再通过文件管理器进入<b>ext4分区</b>后，右键单击空白处，选择 <b>Open in Terminal</b>,再输入以下命令，<kbd>回车</kbd>执行：<pre class="hl" data-lang="SHELL"><code>sudo cp -r ~/2/* ./system</code></pre>待出现新的一行时，系统文件已被复制进 ext4 分区中的 system 目录。<a href="https://z3.ax1x.com/2021/02/07/ytcmZD.jpg" target="_blank"><img src="https://z3.ax1x.com/2021/02/07/ytcmZD.jpg" /></a></p>
+</li>
+<li>
+<p>重启进入 U盘的 <b style="color:#CC585A">UEFI启动盘</b>(使用深度 UEFI 启动盘时一般为U盘第4个分区)，将 grub.zip 解压后的 <b style="color:#CC585A">EFI</b> 和 <b style="color:#CC585A">boot</b> 两个文件夹复制至总容量 96MB 左右的 EFI 启动分区根目录，并记住这个磁盘的盘符。<a href="https://z3.ax1x.com/2021/02/07/ytc8QP.jpg" target="_blank"><img src="https://z3.ax1x.com/2021/02/07/ytc8QP.jpg"/></a></p>
+</li>
+<li>
+<p>在 Windows PE 中使用 BOOTICE 添加 <b style="color:#CC585A">启动分区/EFI/boot/grubx64.efi</b> 启动项，设置名称 Android，保存(这个软件有时点完添加后没反应，需要在左侧左键切换几个启动项后再点添加才会提示成功)。<a href="https://z3.ax1x.com/2021/02/07/ytchWR.jpg" target="_blank"><img src="https://z3.ax1x.com/2021/02/07/ytchWR.jpg"  /></a><a href="https://z3.ax1x.com/2021/02/07/ytcIQx.jpg" target="_blank"><img src="https://z3.ax1x.com/2021/02/07/ytcIQx.jpg" /></a><a href="https://z3.ax1x.com/2021/02/07/ytc5S1.jpg" target="_blank"><img src="https://z3.ax1x.com/2021/02/07/ytc5S1.jpg"  /></a></p>
+</li>
+<li>
+<p>重启，开机项选择 Android，这时如果不是硬件兼容性问题，应该可以启动了，并且可以在第三方文件管理器已获取root权限的情况下直接修改系统文件了。<br>
+<img src="https://z3.ax1x.com/2021/02/07/ytgt6x.jpg" /><img src="https://z3.ax1x.com/2021/02/07/ytgY11.jpg" /></p>
+</li>
+<li>
+<p>如果你已经安装了 Ubuntu 等基于 Linux 的系统，我相信你会直接向其引导文件中添加 Android-x86 启动项。或者可以使用这个 grub 引导 Windows。</p>
+</li>
+</ol>
+<p>#<b>安装 ARM 兼容库</b><br>
+凤凰系统已经预装了ARM兼容运行库，但原生 Android-x86没有。且系统自带安装脚本中的下载链接已失效，需要于本地安装。</p>
+<ol>
+<li>下载兼容库及文件管理器，并解压于U盘中。<a href="https://pan.baidu.com/s/1t1mv-ePFIRhfD2Q6R1QhZw" target="_blank" style="color:#00AAFF">提取码：houd</a></li>
+<li>启动 Android-x86，通过U盘安装 RE管理器，打开 RE管理器，并授予超级用户权限。</li>
+<li>使用RE管理器新建文件夹：<code>/data/arm</code>，并将U盘中的 <b style="color:#CC585A">houdini7_z.sfs houdini7_y.sfs houdini7_z.sfs</b> 三个文件复制进这个文件夹（U盘在<code>/storage</code>里找）。</li>
+<li>打开终端管理器，输入以下命令，按<kbd>回车</kbd>执行，授予超级用户权限：<pre class="hl" data-lang="SHELL"><code>su<br>
+enable_nativebridge<br>
+</code></pre></li>
+<li>进入<b style="color:#CC585A">设置-应用兼容性</b>，打开<b style="color:#CC585A">兼容模式</b>。</li>
+<li>此时即可以安装例如百度输入法之类的一部分ARM应用了。</li>
+</ol>
+<p>#<b>酷比魔方i7标准版安装Android x86后WiFi打不开</b></p>
+<ol>
+<li>RE管理器授予超级用户权限，删除 <code>/system/lib/module/****/kernel/drivers/net/wireless/realtek/rtl8xxxu</code></li>
+<li>重启设备。</li>
+</ol>
+<p>#<b>酷比魔方i7标准版重力感应不起作用</b><br>
+凤凰系统重力感应没有问题，但旋转屏幕后任务栏无反应，暂不知原因。修复原生 Android-x86 重力感应方法：</p>
+<ol>
+<li>RE管理器授予超级用户权限，找到<code>/system/etc/init.sh</code>，长按，选择<b style="color:#CC585A">以文本方式编辑</b>，找到<pre><code>i7-WN</code></pre>改为<pre><code>i7-CM</code></pre>然后将紧接着下一行的<pre class="hl"><code>set_property ro.iio.accel.quirks no-trig</code></pre>改为<pre class="hl"><code>set_property ro.iio.accel.opt_scale -1</code></pre></li>
+<li>重启生效。</li>
+</ol>
 ]]></content>
     </entry>
 </feed>
