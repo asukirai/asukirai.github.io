@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://www.sailstars.one</id>
     <title>SailStars</title>
-    <updated>2022-04-12T14:32:00.443Z</updated>
+    <updated>2022-06-27T15:25:06.453Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://www.sailstars.one"/>
     <link rel="self" href="https://www.sailstars.one/atom.xml"/>
@@ -190,7 +190,7 @@ EFI下载&nbsp;&nbsp;<a href="https://pan.baidu.com/s/1utQ8bJwCEs7az28qtPKgNA" t
 <p>    效果：</p>
 <p>    <a href="https://item.jd.com/773352.html" target="_blank" style="color:#00AAFF">雷达天线 USB 网卡</a> (Realtek RTL8818GU) 连接 2.4GHz 上级路由。</p>
 <p>    <a href="https://item.jd.com/6050357.html" target="_blank" style="color:#00AAFF">水星UD13H</a> (Mediatek MT7612U) 建立 5.8GHz 热点。</p>
-<p>    下载稳定。延迟稳定。<img src="https://s1.ax1x.com/2020/04/02/GtsqfK.png" /><img src="https://s3.ax1x.com/2021/02/11/y0TuqO.jpg" /></p>
+<p>    下载稳定。延迟稳定。<img src="https://z3.ax1x.com/2020/04/02/GtsqfK.png" /><img src="https://z3.ax1x.com/2021/02/11/y0TuqO.jpg" /></p>
 <div style="background:linear-gradient(to left,#FFFFFF,#AAAAAA,#FFFFFF);height:1px;"></div>
 <p>    在那个还在蹭邻居Wi-Fi😅的年代，怎样保证稳定性及覆盖一直是我头疼的问题。邻居的网在客厅信号最强，但用笔记本内置网卡下载时，速度仍时快时慢。尝试过使用腾(垃)达(圾)路由器的 WISP 功能、小米无线 Wi-Fi 中继器，结果这两个兄弟连邻居的路由器都连不上，倒是手机、电脑可以勉强用。</p>
 <p>    为了愉快的蹭网，我购买了上述两个无线网卡，经测试在电脑上使用效果都不错，雷达天线的效果更好，但是怎样才能让手机、平板等其他设备也用上呢？</p>
@@ -199,10 +199,10 @@ EFI下载&nbsp;&nbsp;<a href="https://pan.baidu.com/s/1utQ8bJwCEs7az28qtPKgNA" t
 <p>    只有经历过这个探索，你才会知道在 Windows 上建热点有多恶心。</p>
 <ol>
 <li>Windows 10 设置中建立热点的地方有时候没有 5GHz 的选项，即使有也不让用，查相关资料说：必须在 <b>已连接到 5GHz Wi-Fi</b> 的情况下才能建 5GHz 的热点。<br>
-<img src="https://s3.ax1x.com/2021/02/08/yaKYDK.jpg" /></li>
+<img src="https://z3.ax1x.com/2021/02/08/yaKYDK.jpg" /></li>
 <li>在驱动配置中强制 仅使用 5GHz，使用猎豹免费 Wi-Fi，它会分不清楚哪个是内置、哪个是外置网卡，尤其是我插了两个 USB 网卡并且拔掉内置 Mini-PCIE 网卡的时候，会断线重连，开热点的设备自动换回 2.4GHz 网卡。</li>
 <li>使用网传的 netsh wlan start hostednetwork 命令只有在 Mini-PCIE 网卡支持的时候才可以用，USB 网卡不要想，我从来没有成功过。<br>
-<img src="https://s3.ax1x.com/2021/02/11/y0TzYd.jpg" /><br>
+<img src="https://z3.ax1x.com/2021/02/11/y0TzYd.jpg" /><br>
     ......<br>
   <br>
     同时，我发现用很多 USB 网卡玩游戏、下载东西的时候，会间歇性突然掉卡找不到硬件，然后再重新发现硬件，再重复。MT7612U 也不例外。就在凑合过日子的时候，对 Mediatek 自带无线设定工具的研究给了我新发现。它居然可以指定信道开启热点😱。<br>
@@ -211,19 +211,19 @@ EFI下载&nbsp;&nbsp;<a href="https://pan.baidu.com/s/1utQ8bJwCEs7az28qtPKgNA" t
 <p>#<b>具体方法：</b></p>
 <ol>
 <li>安装 Mediatek <a href="https://www.mediatek.cn/products/broadbandWifi/mt7612u" target="_blank" style="color:#00AAFF">官网驱动</a>，安装时选择 <b>安装驱动程序与 Mediatek 无线网络设定程序</b>。<br>
-<img src="https://s3.ax1x.com/2021/02/11/y0oi9I.png" /></li>
+<img src="https://z3.ax1x.com/2021/02/11/y0oi9I.png" /></li>
 <li>在设备管器中更新网卡驱动，选择 802.11ac Wireless LAN Card。<br>
-<img src="https://s3.ax1x.com/2021/02/11/y0oK4s.png" /><img src="https://s3.ax1x.com/2021/02/11/y0ouNj.png" /><img src="https://s3.ax1x.com/2021/02/11/y0onEQ.png" /><img src="https://s3.ax1x.com/2021/02/11/y0oQCn.png" /></li>
-<li>安装完成后，任务栏右下角会出现新的信号图标(可能被隐藏起来)，左键双击打开无线网络设定程序。<img src="https://s3.ax1x.com/2021/02/11/y0oYbF.png" /></li>
+<img src="https://z3.ax1x.com/2021/02/11/y0oK4s.png" /><img src="https://s3.ax1x.com/2021/02/11/y0ouNj.png" /><img src="https://z3.ax1x.com/2021/02/11/y0onEQ.png" /><img src="https://z3.ax1x.com/2021/02/11/y0oQCn.png" /></li>
+<li>安装完成后，任务栏右下角会出现新的信号图标(可能被隐藏起来)，左键双击打开无线网络设定程序。<img src="https://z3.ax1x.com/2021/02/11/y0oYbF.png" /></li>
 <li>右键单击任务栏上的信号图标，选择 <b>切换至 AP 模式</b>。<br>
-<img src="https://s3.ax1x.com/2021/02/11/y0oJDU.png" /></li>
-<li>点击如图所示的 <b>一般设定</b> 图标，在 ICS WAN 一栏中选择连接邻居路由的大功率网卡，下一步。<img src="https://s3.ax1x.com/2021/02/11/y0osKK.png" /><img src="https://s3.ax1x.com/2021/02/11/y0o5xP.png" /></li>
+<img src="https://z3.ax1x.com/2021/02/11/y0oJDU.png" /></li>
+<li>点击如图所示的 <b>一般设定</b> 图标，在 ICS WAN 一栏中选择连接邻居路由的大功率网卡，下一步。<img src="https://z3.ax1x.com/2021/02/11/y0osKK.png" /><img src="https://z3.ax1x.com/2021/02/11/y0o5xP.png" /></li>
 <li>在<b>频道</b>中向下翻，选择 <b style="color:#CC585A">149-165</b> 的任意 5GHz 信道，下一步。验证方法选择 WPA2-PSK 。<br>
-<img src="https://s3.ax1x.com/2021/02/11/y0oTr8.png" /></li>
+<img src="https://z3.ax1x.com/2021/02/11/y0oTr8.png" /></li>
 <li>此时已经建好了热点，显示 IP 为 192.168.123.1 ，但是现在其他设备连接上热点后还不能访问网络。需要继续下一步。<br>
-<img src="https://s3.ax1x.com/2021/02/11/y0ov2q.png" /></li>
+<img src="https://z3.ax1x.com/2021/02/11/y0ov2q.png" /></li>
 <li>在 <b>所有设置-网络和Internet-状态-更改适配器选项</b> 中找到连接邻居路由的大功率无线网卡，右键选择属性，切换到 <b>共享</b> 选项卡，把 <b>允许其他网络用户通过此计算机的 Internet 连接来连接</b> 前面的勾<b style="color:#CC585A">去掉</b>，然后确定退出。再次右键选择属性，把这个勾再<b style="color:#CC585A">勾上</b>，点确定退出。回到无线网络设定程序，IP 已经变成了 <b style="color:#CC585A">192.168.137.1</b>，此时连接热点的设备才可以正常上网。<br>
-<img src="https://s3.ax1x.com/2021/02/11/y0TSMV.png" /><img src="https://s3.ax1x.com/2021/02/11/y0TprT.png" /><img src="https://s3.ax1x.com/2021/02/11/y0Tia4.png" /></li>
+<img src="https://z3.ax1x.com/2021/02/11/y0TSMV.png" /><img src="https://s3.ax1x.com/2021/02/11/y0TprT.png" /><img src="https://z3.ax1x.com/2021/02/11/y0Tia4.png" /></li>
 <li>重启电脑后，需要重新执行<b style="color:#CC585A">第8步</b>这一过程，直至 IP 显示为 192.168.137.1 时，连接到热点的设备才可以正常上网。具体原因呢跟 Windows 10 ICS 服务有关，已测试目前无法用脚本代替。倒是可以新建一个访问 <b>适配器选项</b> 的快捷方式😅：<pre class="hl"><code>C:\Windows\System32\ncpa.cpl</code></pre></li>
 </ol>
 ]]></content>
